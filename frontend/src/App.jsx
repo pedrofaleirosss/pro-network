@@ -2,7 +2,6 @@ import { useEffect, useMemo, useState } from "react";
 import Header from "./components/Header";
 import FilterBar from "./components/FilterBar";
 import ProfessionalCard from "./components/ProfessionalCard";
-import { professionals } from "./data/professionals";
 import { Search } from "lucide-react";
 import ProfessionalModal from "./components/ProfessionalModal";
 
@@ -17,6 +16,7 @@ function App() {
   const [selectedProfessional, setSelectedProfessional] = useState(null);
   const [recommendations, setRecommendations] = useState(new Set());
   const [messages, setMessages] = useState(new Set());
+  const [professionals, setProfessionals] = useState([]);
 
   useEffect(() => {
     if (darkMode) {
@@ -25,6 +25,20 @@ function App() {
       document.documentElement.classList.remove("dark");
     }
   }, [darkMode]);
+
+  useEffect(() => {
+    async function loadProfessionals() {
+      try {
+        const res = await fetch("http://localhost:3000/professionals");
+        const data = await res.json();
+        setProfessionals(data);
+      } catch (error) {
+        console.error("Erro ao buscar profissionais:", error);
+      }
+    }
+
+    loadProfessionals();
+  }, []);
 
   const handleToggleDarkMode = (newValue) => {
     setDarkMode(newValue);
@@ -38,11 +52,11 @@ function App() {
 
   const areas = useMemo(() => {
     return [...new Set(professionals.map((p) => p.area))].sort();
-  }, []);
+  }, [professionals]);
 
   const cities = useMemo(() => {
     return [...new Set(professionals.map((p) => p.localizacao))].sort();
-  }, []);
+  }, [professionals]);
 
   const skills = useMemo(() => {
     const allSkills = new Set();
@@ -50,7 +64,7 @@ function App() {
       p.habilidadesTecnicas.forEach((skill) => allSkills.add(skill));
     });
     return Array.from(allSkills).sort();
-  }, []);
+  }, [professionals]);
 
   const filteredProfessionals = useMemo(() => {
     return professionals.filter((professional) => {
@@ -70,7 +84,7 @@ function App() {
 
       return matchesSearch && matchesArea && matchesCity && matchesSkill;
     });
-  }, [searchQuery, selectedArea, selectedCity, selectedSkill]);
+  }, [searchQuery, selectedArea, selectedCity, selectedSkill, professionals]);
 
   const toggleRecommendation = (id) => {
     const newRecs = new Set(recommendations);

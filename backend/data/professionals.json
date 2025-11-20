@@ -1,0 +1,2671 @@
+{
+  "professionals": [
+    {
+      "id": 1,
+      "nome": "Ana Silva",
+      "foto": "https://api.dicebear.com/7.x/avataaars/svg?seed=Ana",
+      "cargo": "Senior Full Stack Developer",
+      "resumo": "Especialista em desenvolvimento web moderno com 8 anos de experiência",
+      "localizacao": "São Paulo, SP",
+      "area": "Desenvolvimento",
+      "habilidadesTecnicas": [
+        "React",
+        "Node.js",
+        "TypeScript",
+        "PostgreSQL",
+        "Docker"
+      ],
+      "softSkills": ["Liderança", "Comunicação", "Resolução de Problemas"],
+      "experiencias": [
+        {
+          "empresa": "TechCorp",
+          "cargo": "Senior Developer",
+          "inicio": "2022-01",
+          "fim": "presente",
+          "descricao": "Liderança técnica e arquitetura de sistemas"
+        },
+        {
+          "empresa": "StartupXYZ",
+          "cargo": "Full Stack Developer",
+          "inicio": "2020-03",
+          "fim": "2021-12",
+          "descricao": "Desenvolvimento de plataforma SaaS"
+        }
+      ],
+      "formacao": [
+        {
+          "curso": "Bacharelado em Ciência da Computação",
+          "instituicao": "USP",
+          "ano": 2016
+        }
+      ],
+      "projetos": [
+        {
+          "titulo": "E-commerce Platform",
+          "link": "https://github.com/ana/ecommerce",
+          "descricao": "Plataforma de vendas com 50k+ usuários"
+        }
+      ],
+      "certificacoes": [
+        "AWS Certified Solutions Architect",
+        "Google Cloud Professional"
+      ],
+      "idiomas": [
+        { "idioma": "Português", "nivel": "Nativo" },
+        { "idioma": "Inglês", "nivel": "Fluente" }
+      ],
+      "interesses": ["Cloud Computing", "Arquitetura de Sistemas", "Mentoría"]
+    },
+    {
+      "id": 2,
+      "nome": "Carlos Mendes",
+      "foto": "https://api.dicebear.com/7.x/avataaars/svg?seed=Carlos",
+      "cargo": "Product Manager",
+      "resumo": "Especialista em produto digital e estratégia de crescimento",
+      "localizacao": "Rio de Janeiro, RJ",
+      "area": "Produto",
+      "habilidadesTecnicas": [
+        "Product Strategy",
+        "Data Analysis",
+        "Figma",
+        "SQL basics"
+      ],
+      "softSkills": ["Visão Estratégica", "Empatia", "Negociação"],
+      "experiencias": [
+        {
+          "empresa": "InnovateTech",
+          "cargo": "Product Manager",
+          "inicio": "2021-06",
+          "fim": "presente",
+          "descricao": "Gestão de produtos B2B"
+        }
+      ],
+      "formacao": [
+        {
+          "curso": "MBA em Gestão de Produtos",
+          "instituicao": "FGV",
+          "ano": 2020
+        }
+      ],
+      "projetos": [
+        {
+          "titulo": "SaaS de Gestão",
+          "link": "https://portfolio.example.com",
+          "descricao": "Liderou lançamento de novo produto"
+        }
+      ],
+      "certificacoes": ["Certified Scrum Product Owner"],
+      "idiomas": [
+        { "idioma": "Português", "nivel": "Nativo" },
+        { "idioma": "Inglês", "nivel": "Avançado" }
+      ],
+      "interesses": ["Inovação de Produto", "User Experience", "Dados"]
+    },
+    {
+      "id": 3,
+      "nome": "Marina Costa",
+      "foto": "https://api.dicebear.com/7.x/avataaars/svg?seed=Marina",
+      "cargo": "UX/UI Designer",
+      "resumo": "Designer com foco em experiência do usuário e design inclusivo",
+      "localizacao": "Belo Horizonte, MG",
+      "area": "Design",
+      "habilidadesTecnicas": [
+        "Figma",
+        "Adobe XD",
+        "Prototipagem",
+        "Pesquisa UX"
+      ],
+      "softSkills": ["Criatividade", "Colaboração", "Pensamento Crítico"],
+      "experiencias": [
+        {
+          "empresa": "DesignStudio",
+          "cargo": "Senior UX Designer",
+          "inicio": "2020-02",
+          "fim": "presente",
+          "descricao": "Projetos para startups e empresas Fortune 500"
+        }
+      ],
+      "formacao": [
+        {
+          "curso": "Bacharelado em Design",
+          "instituicao": "UFMG",
+          "ano": 2018
+        }
+      ],
+      "projetos": [
+        {
+          "titulo": "Redesign de App Financeiro",
+          "link": "https://behance.net/marina",
+          "descricao": "Redução de drop-off em 40%"
+        }
+      ],
+      "certificacoes": ["Google UX Design Certificate"],
+      "idiomas": [
+        { "idioma": "Português", "nivel": "Nativo" },
+        { "idioma": "Inglês", "nivel": "Fluente" }
+      ],
+      "interesses": [
+        "Design Inclusivo",
+        "Pesquisa de Usuário",
+        "Design Systems"
+      ]
+    },
+    {
+      "id": 4,
+      "nome": "Roberto Alves",
+      "foto": "https://api.dicebear.com/7.x/avataaars/svg?seed=Roberto",
+      "cargo": "DevOps Engineer",
+      "resumo": "Especialista em infraestrutura em nuvem e automação",
+      "localizacao": "Brasília, DF",
+      "area": "Infraestrutura",
+      "habilidadesTecnicas": [
+        "Kubernetes",
+        "AWS",
+        "Terraform",
+        "Python",
+        "CI/CD"
+      ],
+      "softSkills": [
+        "Atenção aos Detalhes",
+        "Resolução de Problemas",
+        "Documentação"
+      ],
+      "experiencias": [
+        {
+          "empresa": "CloudSolutions",
+          "cargo": "Senior DevOps Engineer",
+          "inicio": "2019-08",
+          "fim": "presente",
+          "descricao": "Gerenciamento de infraestrutura para 100+ microserviços"
+        }
+      ],
+      "formacao": [
+        {
+          "curso": "Bacharelado em Engenharia de Computação",
+          "instituicao": "UnB",
+          "ano": 2015
+        }
+      ],
+      "projetos": [],
+      "certificacoes": [
+        "CKA - Certified Kubernetes Administrator",
+        "AWS Solutions Architect"
+      ],
+      "idiomas": [
+        { "idioma": "Português", "nivel": "Nativo" },
+        { "idioma": "Inglês", "nivel": "Avançado" }
+      ],
+      "interesses": ["Cloud Native", "Observabilidade", "Automação"]
+    },
+    {
+      "id": 5,
+      "nome": "Juliana Ferreira",
+      "foto": "https://api.dicebear.com/7.x/avataaars/svg?seed=Juliana",
+      "cargo": "Data Scientist",
+      "resumo": "Cientista de dados com expertise em machine learning e análise preditiva",
+      "localizacao": "Curitiba, PR",
+      "area": "Dados",
+      "habilidadesTecnicas": [
+        "Python",
+        "TensorFlow",
+        "SQL",
+        "Pandas",
+        "Tableau"
+      ],
+      "softSkills": ["Análise Crítica", "Comunicação de Dados", "Criatividade"],
+      "experiencias": [
+        {
+          "empresa": "DataInsights",
+          "cargo": "Senior Data Scientist",
+          "inicio": "2021-03",
+          "fim": "presente",
+          "descricao": "Desenvolvimento de modelos de ML para recomendações"
+        }
+      ],
+      "formacao": [
+        {
+          "curso": "Mestrado em Ciência de Dados",
+          "instituicao": "UFPR",
+          "ano": 2020
+        }
+      ],
+      "projetos": [
+        {
+          "titulo": "Sistema de Recomendação",
+          "link": "https://github.com/juliana/ml-models",
+          "descricao": "Modelo com 95% de acurácia"
+        }
+      ],
+      "certificacoes": ["Google Cloud Professional Data Engineer"],
+      "idiomas": [
+        { "idioma": "Português", "nivel": "Nativo" },
+        { "idioma": "Inglês", "nivel": "Fluente" }
+      ],
+      "interesses": ["Machine Learning", "Big Data", "IA Ética"]
+    },
+    {
+      "id": 6,
+      "nome": "Felipe Gomes",
+      "foto": "https://api.dicebear.com/7.x/avataaars/svg?seed=Felipe",
+      "cargo": "Frontend Engineer",
+      "resumo": "Engenheiro frontend especializado em performance e acessibilidade",
+      "localizacao": "Salvador, BA",
+      "area": "Desenvolvimento",
+      "habilidadesTecnicas": [
+        "React",
+        "Vue.js",
+        "CSS",
+        "JavaScript",
+        "Webpack"
+      ],
+      "softSkills": [
+        "Atenção a Detalhes",
+        "Colaboração",
+        "Aprendizado Contínuo"
+      ],
+      "experiencias": [
+        {
+          "empresa": "WebAgency",
+          "cargo": "Senior Frontend Developer",
+          "inicio": "2020-05",
+          "fim": "presente",
+          "descricao": "Desenvolvimento de interfaces para marcas internacionais"
+        }
+      ],
+      "formacao": [
+        {
+          "curso": "Bootcamp de Programação",
+          "instituicao": "CodeBootcamp",
+          "ano": 2018
+        }
+      ],
+      "projetos": [
+        {
+          "titulo": "Redesign Performance",
+          "link": "https://github.com/felipe/perf",
+          "descricao": "Redução de 60% no load time"
+        }
+      ],
+      "certificacoes": [],
+      "idiomas": [
+        { "idioma": "Português", "nivel": "Nativo" },
+        { "idioma": "Inglês", "nivel": "Intermediário" }
+      ],
+      "interesses": ["Performance Web", "Acessibilidade", "Design Responsivo"]
+    },
+    {
+      "id": 7,
+      "nome": "Beatriz Santos",
+      "foto": "https://api.dicebear.com/7.x/avataaars/svg?seed=Beatriz",
+      "cargo": "QA Engineer",
+      "resumo": "Engenheira de qualidade com expertise em testes automatizados",
+      "localizacao": "Fortaleza, CE",
+      "area": "Qualidade",
+      "habilidadesTecnicas": [
+        "Selenium",
+        "Jest",
+        "Cypress",
+        "Python",
+        "Test Management"
+      ],
+      "softSkills": [
+        "Atenção aos Detalhes",
+        "Raciocínio Lógico",
+        "Persistência"
+      ],
+      "experiencias": [
+        {
+          "empresa": "TestFirst",
+          "cargo": "Lead QA Engineer",
+          "inicio": "2021-01",
+          "fim": "presente",
+          "descricao": "Liderança de equipe de 5 QAs"
+        }
+      ],
+      "formacao": [
+        {
+          "curso": "Especialização em Testes de Software",
+          "instituicao": "Unicamp",
+          "ano": 2019
+        }
+      ],
+      "projetos": [],
+      "certificacoes": ["ISTQB Certified"],
+      "idiomas": [
+        { "idioma": "Português", "nivel": "Nativo" },
+        { "idioma": "Inglês", "nivel": "Avançado" }
+      ],
+      "interesses": ["Testes Automatizados", "CI/CD", "Qualidade de Código"]
+    },
+    {
+      "id": 8,
+      "nome": "Diego Oliveira",
+      "foto": "https://api.dicebear.com/7.x/avataaars/svg?seed=Diego",
+      "cargo": "Backend Engineer",
+      "resumo": "Engenheiro backend com 10 anos em sistemas de alta escala",
+      "localizacao": "Recife, PE",
+      "area": "Desenvolvimento",
+      "habilidadesTecnicas": [
+        "Java",
+        "Spring Boot",
+        "PostgreSQL",
+        "Redis",
+        "RabbitMQ"
+      ],
+      "softSkills": ["Liderança", "Mentoría", "Pensamento Sistêmico"],
+      "experiencias": [
+        {
+          "empresa": "BigTechCorp",
+          "cargo": "Principal Backend Engineer",
+          "inicio": "2018-06",
+          "fim": "presente",
+          "descricao": "Arquiteto de serviços com milhões de requisições/dia"
+        }
+      ],
+      "formacao": [
+        {
+          "curso": "Bacharelado em Engenharia de Software",
+          "instituicao": "UFPE",
+          "ano": 2014
+        }
+      ],
+      "projetos": [
+        {
+          "titulo": "Microserviços em Produção",
+          "link": "https://github.com/diego/backend",
+          "descricao": "Sistema escalável com 99.99% uptime"
+        }
+      ],
+      "certificacoes": ["Spring Professional Certification"],
+      "idiomas": [
+        { "idioma": "Português", "nivel": "Nativo" },
+        { "idioma": "Inglês", "nivel": "Fluente" }
+      ],
+      "interesses": ["Arquitetura de Software", "Escalabilidade", "Segurança"]
+    },
+    {
+      "id": 9,
+      "nome": "Fernanda Rocha",
+      "foto": "https://api.dicebear.com/7.x/avataaars/svg?seed=Fernanda",
+      "cargo": "Security Specialist",
+      "resumo": "Especialista em segurança da informação e compliance",
+      "localizacao": "Manaus, AM",
+      "area": "Segurança",
+      "habilidadesTecnicas": [
+        "Penetration Testing",
+        "OWASP",
+        "Cryptography",
+        "Compliance",
+        "Network Security"
+      ],
+      "softSkills": [
+        "Pensamento Estratégico",
+        "Comunicação",
+        "Análise de Riscos"
+      ],
+      "experiencias": [
+        {
+          "empresa": "SecureIT",
+          "cargo": "Chief Information Security Officer",
+          "inicio": "2020-02",
+          "fim": "presente",
+          "descricao": "Gestão de segurança para empresa de 500+ funcionários"
+        }
+      ],
+      "formacao": [
+        {
+          "curso": "MBA em Segurança da Informação",
+          "instituicao": "FGV",
+          "ano": 2019
+        }
+      ],
+      "projetos": [],
+      "certificacoes": ["CISSP", "CEH - Certified Ethical Hacker"],
+      "idiomas": [
+        { "idioma": "Português", "nivel": "Nativo" },
+        { "idioma": "Inglês", "nivel": "Fluente" }
+      ],
+      "interesses": [
+        "Zero Trust Security",
+        "Compliance",
+        "Resposta a Incidentes"
+      ]
+    },
+    {
+      "id": 10,
+      "nome": "Gustavo Ribeiro",
+      "foto": "https://api.dicebear.com/7.x/avataaars/svg?seed=Gustavo",
+      "cargo": "Mobile Developer",
+      "resumo": "Desenvolvedor mobile focado em experiência de usuário",
+      "localizacao": "Porto Alegre, RS",
+      "area": "Desenvolvimento",
+      "habilidadesTecnicas": [
+        "Flutter",
+        "React Native",
+        "Swift",
+        "Kotlin",
+        "Firebase"
+      ],
+      "softSkills": ["Criatividade", "Adaptabilidade", "Foco no Usuário"],
+      "experiencias": [
+        {
+          "empresa": "MobileFirst",
+          "cargo": "Senior Mobile Developer",
+          "inicio": "2019-09",
+          "fim": "presente",
+          "descricao": "Desenvolvimento de apps com 5M+ downloads"
+        }
+      ],
+      "formacao": [
+        {
+          "curso": "Bacharelado em Desenvolvimento Mobile",
+          "instituicao": "PUCRS",
+          "ano": 2017
+        }
+      ],
+      "projetos": [
+        {
+          "titulo": "App de Fitness",
+          "link": "https://play.google.com/store/apps/details?id=fitness",
+          "descricao": "App com 4.8 stars em 50k reviews"
+        }
+      ],
+      "certificacoes": [],
+      "idiomas": [
+        { "idioma": "Português", "nivel": "Nativo" },
+        { "idioma": "Inglês", "nivel": "Fluente" }
+      ],
+      "interesses": ["Desenvolvimento Mobile", "UX Mobile", "Performance"]
+    },
+    {
+      "id": 11,
+      "nome": "Isabela Martins",
+      "foto": "https://api.dicebear.com/7.x/avataaars/svg?seed=Isabela",
+      "cargo": "Marketing Manager",
+      "resumo": "Gerente de marketing digital com foco em growth e conversão",
+      "localizacao": "Goiânia, GO",
+      "area": "Marketing",
+      "habilidadesTecnicas": [
+        "Google Analytics",
+        "SEO",
+        "SEM",
+        "Marketing Automation",
+        "CRM"
+      ],
+      "softSkills": ["Criatividade", "Análise Estratégica", "Comunicação"],
+      "experiencias": [
+        {
+          "empresa": "GrowthHub",
+          "cargo": "Senior Marketing Manager",
+          "inicio": "2020-07",
+          "fim": "presente",
+          "descricao": "Gestão de marketing para SaaS B2B"
+        }
+      ],
+      "formacao": [
+        {
+          "curso": "MBA em Marketing Digital",
+          "instituicao": "ESPM",
+          "ano": 2019
+        }
+      ],
+      "projetos": [
+        {
+          "titulo": "Campanha de Growth",
+          "link": "https://portfolio.example.com",
+          "descricao": "Aumento de 300% em leads qualificados"
+        }
+      ],
+      "certificacoes": ["Google Ads Certified", "Google Analytics Certified"],
+      "idiomas": [
+        { "idioma": "Português", "nivel": "Nativo" },
+        { "idioma": "Inglês", "nivel": "Avançado" }
+      ],
+      "interesses": [
+        "Growth Hacking",
+        "Product Marketing",
+        "Marketing Automation"
+      ]
+    },
+    {
+      "id": 12,
+      "nome": "João Silva",
+      "foto": "https://api.dicebear.com/7.x/avataaars/svg?seed=Joao",
+      "cargo": "Solutions Architect",
+      "resumo": "Arquiteto de soluções em transformação digital",
+      "localizacao": "Brasília, DF",
+      "area": "Arquitetura",
+      "habilidadesTecnicas": [
+        "Enterprise Architecture",
+        "Cloud Design",
+        "System Design",
+        "AWS",
+        "Azure"
+      ],
+      "softSkills": ["Visão Estratégica", "Comunicação", "Negociação"],
+      "experiencias": [
+        {
+          "empresa": "ConsultingCorp",
+          "cargo": "Senior Solutions Architect",
+          "inicio": "2019-04",
+          "fim": "presente",
+          "descricao": "Desenho de soluções para transformação digital"
+        }
+      ],
+      "formacao": [
+        {
+          "curso": "MBA em Gestão de TI",
+          "instituicao": "UFRJ",
+          "ano": 2018
+        }
+      ],
+      "projetos": [],
+      "certificacoes": [
+        "AWS Solutions Architect Professional",
+        "Azure Solutions Architect Expert"
+      ],
+      "idiomas": [
+        { "idioma": "Português", "nivel": "Nativo" },
+        { "idioma": "Inglês", "nivel": "Fluente" }
+      ],
+      "interesses": [
+        "Transformação Digital",
+        "Cloud Architecture",
+        "Enterprise Solutions"
+      ]
+    },
+    {
+      "id": 13,
+      "nome": "Karina Borges",
+      "foto": "https://api.dicebear.com/7.x/avataaars/svg?seed=Karina",
+      "cargo": "HR Manager",
+      "resumo": "Gestora de recursos humanos com expertise em employer branding",
+      "localizacao": "Vitória, ES",
+      "area": "Recursos Humanos",
+      "habilidadesTecnicas": [
+        "Recruitment",
+        "HRIS",
+        "People Analytics",
+        "Employer Branding"
+      ],
+      "softSkills": ["Empatia", "Comunicação", "Liderança"],
+      "experiencias": [
+        {
+          "empresa": "PeopleFirst",
+          "cargo": "Senior HR Manager",
+          "inicio": "2021-01",
+          "fim": "presente",
+          "descricao": "Gestão de equipe de 300+ pessoas"
+        }
+      ],
+      "formacao": [
+        {
+          "curso": "Bacharelado em Recursos Humanos",
+          "instituicao": "UFES",
+          "ano": 2014
+        }
+      ],
+      "projetos": [],
+      "certificacoes": ["CIPD Diploma in HR Management"],
+      "idiomas": [
+        { "idioma": "Português", "nivel": "Nativo" },
+        { "idioma": "Inglês", "nivel": "Avançado" }
+      ],
+      "interesses": [
+        "Employer Branding",
+        "Desenvolvimento de Talentos",
+        "Cultura Organizacional"
+      ]
+    },
+    {
+      "id": 14,
+      "nome": "Leonardo Santos",
+      "foto": "https://api.dicebear.com/7.x/avataaars/svg?seed=Leonardo",
+      "cargo": "DevOps Engineer",
+      "resumo": "Engenheiro DevOps especializado em containerização",
+      "localizacao": "Maceió, AL",
+      "area": "Infraestrutura",
+      "habilidadesTecnicas": [
+        "Docker",
+        "Kubernetes",
+        "Jenkins",
+        "GitLab CI",
+        "Monitoring"
+      ],
+      "softSkills": ["Resolução de Problemas", "Automação", "Documentação"],
+      "experiencias": [
+        {
+          "empresa": "CloudOps",
+          "cargo": "DevOps Engineer",
+          "inicio": "2020-08",
+          "fim": "presente",
+          "descricao": "Gerenciamento de infraestrutura em Kubernetes"
+        }
+      ],
+      "formacao": [
+        {
+          "curso": "Certificação em Cloud Computing",
+          "instituicao": "Pluralsight",
+          "ano": 2019
+        }
+      ],
+      "projetos": [],
+      "certificacoes": [
+        "Docker Certified Associate",
+        "Kubernetes Application Developer"
+      ],
+      "idiomas": [
+        { "idioma": "Português", "nivel": "Nativo" },
+        { "idioma": "Inglês", "nivel": "Intermediário" }
+      ],
+      "interesses": ["Containerização", "Orquestração", "IaC"]
+    },
+    {
+      "id": 15,
+      "nome": "Melissa Costa",
+      "foto": "https://api.dicebear.com/7.x/avataaars/svg?seed=Melissa",
+      "cargo": "Business Analyst",
+      "resumo": "Analista de negócios com foco em processos e eficiência",
+      "localizacao": "Aracaju, SE",
+      "area": "Negócios",
+      "habilidadesTecnicas": [
+        "Business Process Modeling",
+        "Requirements Analysis",
+        "Excel",
+        "SQL basics"
+      ],
+      "softSkills": ["Análise Crítica", "Comunicação", "Organização"],
+      "experiencias": [
+        {
+          "empresa": "ProcessOptim",
+          "cargo": "Senior Business Analyst",
+          "inicio": "2020-03",
+          "fim": "presente",
+          "descricao": "Análise e melhoria de processos empresariais"
+        }
+      ],
+      "formacao": [
+        {
+          "curso": "Bacharelado em Administração",
+          "instituicao": "UFBA",
+          "ano": 2015
+        }
+      ],
+      "projetos": [],
+      "certificacoes": ["IIBA ECBA - Entry Certificate in Business Analysis"],
+      "idiomas": [
+        { "idioma": "Português", "nivel": "Nativo" },
+        { "idioma": "Inglês", "nivel": "Avançado" }
+      ],
+      "interesses": [
+        "Otimização de Processos",
+        "Business Intelligence",
+        "Melhoria Contínua"
+      ]
+    },
+    {
+      "id": 16,
+      "nome": "Nathalia Rocha",
+      "foto": "https://api.dicebear.com/7.x/avataaars/svg?seed=Nathalia",
+      "cargo": "Content Strategist",
+      "resumo": "Estrategista de conteúdo com experiência em editoriais digitais",
+      "localizacao": "Teresina, PI",
+      "area": "Conteúdo",
+      "habilidadesTecnicas": [
+        "Content Marketing",
+        "SEO Writing",
+        "Analytics",
+        "Editorial Management"
+      ],
+      "softSkills": ["Criatividade", "Storytelling", "Atenção aos Detalhes"],
+      "experiencias": [
+        {
+          "empresa": "ContentHub",
+          "cargo": "Senior Content Strategist",
+          "inicio": "2021-05",
+          "fim": "presente",
+          "descricao": "Estratégia de conteúdo para tech companies"
+        }
+      ],
+      "formacao": [
+        {
+          "curso": "Bacharelado em Jornalismo",
+          "instituicao": "UFPI",
+          "ano": 2017
+        }
+      ],
+      "projetos": [
+        {
+          "titulo": "Blog Tech",
+          "link": "https://techblog.example.com",
+          "descricao": "50k visitas/mês com SEO otimizado"
+        }
+      ],
+      "certificacoes": [],
+      "idiomas": [
+        { "idioma": "Português", "nivel": "Nativo" },
+        { "idioma": "Inglês", "nivel": "Fluente" }
+      ],
+      "interesses": ["Storytelling", "SEO", "Marketing de Conteúdo"]
+    },
+    {
+      "id": 17,
+      "nome": "Otávio Pereira",
+      "foto": "https://api.dicebear.com/7.x/avataaars/svg?seed=Otavio",
+      "cargo": "Machine Learning Engineer",
+      "resumo": "Engenheiro de ML com foco em deep learning",
+      "localizacao": "Rio de Janeiro, RJ",
+      "area": "IA/ML",
+      "habilidadesTecnicas": [
+        "PyTorch",
+        "TensorFlow",
+        "Computer Vision",
+        "NLP",
+        "Python"
+      ],
+      "softSkills": ["Pesquisa", "Inovação", "Persistência"],
+      "experiencias": [
+        {
+          "empresa": "AILabs",
+          "cargo": "Senior ML Engineer",
+          "inicio": "2019-07",
+          "fim": "presente",
+          "descricao": "Desenvolvimento de modelos de visão computacional"
+        }
+      ],
+      "formacao": [
+        {
+          "curso": "Mestrado em IA",
+          "instituicao": "COPPE/UFRJ",
+          "ano": 2018
+        }
+      ],
+      "projetos": [
+        {
+          "titulo": "Vision AI",
+          "link": "https://github.com/otavio/cv",
+          "descricao": "Modelo de detecção com 98% acurácia"
+        }
+      ],
+      "certificacoes": ["TensorFlow Developer Certificate"],
+      "idiomas": [
+        { "idioma": "Português", "nivel": "Nativo" },
+        { "idioma": "Inglês", "nivel": "Fluente" }
+      ],
+      "interesses": ["Deep Learning", "Computer Vision", "Pesquisa em IA"]
+    },
+    {
+      "id": 18,
+      "nome": "Patricia Gomes",
+      "foto": "https://api.dicebear.com/7.x/avataaars/svg?seed=Patricia",
+      "cargo": "Finance Manager",
+      "resumo": "Gerente de finanças com expertise em análise financeira",
+      "localizacao": "Belém, PA",
+      "area": "Finanças",
+      "habilidadesTecnicas": [
+        "Financial Analysis",
+        "Excel",
+        "SAP",
+        "Accounting",
+        "Forecasting"
+      ],
+      "softSkills": ["Análise Crítica", "Precisão", "Comunicação"],
+      "experiencias": [
+        {
+          "empresa": "FinanceWorks",
+          "cargo": "Finance Manager",
+          "inicio": "2020-11",
+          "fim": "presente",
+          "descricao": "Gestão financeira e planejamento"
+        }
+      ],
+      "formacao": [
+        {
+          "curso": "MBA em Finanças",
+          "instituicao": "UFPA",
+          "ano": 2019
+        }
+      ],
+      "projetos": [],
+      "certificacoes": ["CPA - Analista de Investimentos"],
+      "idiomas": [
+        { "idioma": "Português", "nivel": "Nativo" },
+        { "idioma": "Inglês", "nivel": "Avançado" }
+      ],
+      "interesses": ["Análise Financeira", "Investimentos", "Controladoria"]
+    },
+    {
+      "id": 19,
+      "nome": "Quentin Laurent",
+      "foto": "https://api.dicebear.com/7.x/avataaars/svg?seed=Quentin",
+      "cargo": "Tech Lead",
+      "resumo": "Líder técnico em transformação digital de empresas",
+      "localizacao": "São Paulo, SP",
+      "area": "Liderança Técnica",
+      "habilidadesTecnicas": [
+        "Software Architecture",
+        "Team Leadership",
+        "System Design",
+        "Strategic Planning"
+      ],
+      "softSkills": ["Liderança", "Mentoría", "Visão Estratégica"],
+      "experiencias": [
+        {
+          "empresa": "TechLeaders",
+          "cargo": "Chief Technology Officer",
+          "inicio": "2018-06",
+          "fim": "presente",
+          "descricao": "Gestão estratégica de tecnologia"
+        }
+      ],
+      "formacao": [
+        {
+          "curso": "Mestrado em Engenharia de Software",
+          "instituicao": "Politécnica/USP",
+          "ano": 2015
+        }
+      ],
+      "projetos": [],
+      "certificacoes": [],
+      "idiomas": [
+        { "idioma": "Português", "nivel": "Avançado" },
+        { "idioma": "Inglês", "nivel": "Fluente" }
+      ],
+      "interesses": ["Estratégia Tecnológica", "Inovação", "Liderança"]
+    },
+    {
+      "id": 20,
+      "nome": "Raquel Mendes",
+      "foto": "https://api.dicebear.com/7.x/avataaars/svg?seed=Raquel",
+      "cargo": "Project Manager",
+      "resumo": "Gerente de projetos com metodologias ágeis e tradicionais",
+      "localizacao": "Salvador, BA",
+      "area": "Gestão de Projetos",
+      "habilidadesTecnicas": [
+        "Agile",
+        "Scrum",
+        "Project Planning",
+        "Risk Management",
+        "JIRA"
+      ],
+      "softSkills": ["Liderança", "Comunicação", "Resolução de Problemas"],
+      "experiencias": [
+        {
+          "empresa": "ProjectPro",
+          "cargo": "Senior Project Manager",
+          "inicio": "2019-09",
+          "fim": "presente",
+          "descricao": "Gestão de projetos complexos em múltiplos setores"
+        }
+      ],
+      "formacao": [
+        {
+          "curso": "Mestrado em Gestão de Projetos",
+          "instituicao": "FGV",
+          "ano": 2018
+        }
+      ],
+      "projetos": [],
+      "certificacoes": [
+        "PMP - Project Management Professional",
+        "Scrum Master"
+      ],
+      "idiomas": [
+        { "idioma": "Português", "nivel": "Nativo" },
+        { "idioma": "Inglês", "nivel": "Avançado" }
+      ],
+      "interesses": [
+        "Agile Transformation",
+        "Gestão de Equipes",
+        "Inovação em Processos"
+      ]
+    },
+    {
+      "id": 21,
+      "nome": "Sandra Ribeiro",
+      "foto": "https://api.dicebear.com/7.x/avataaars/svg?seed=Sandra",
+      "cargo": "Brand Manager",
+      "resumo": "Gerente de marca com expertise em brand strategy",
+      "localizacao": "Recife, PE",
+      "area": "Marketing",
+      "habilidadesTecnicas": [
+        "Brand Strategy",
+        "Market Research",
+        "Design Brief",
+        "Consumer Insights"
+      ],
+      "softSkills": ["Criatividade", "Análise Estratégica", "Comunicação"],
+      "experiencias": [
+        {
+          "empresa": "BrandWorks",
+          "cargo": "Senior Brand Manager",
+          "inicio": "2020-02",
+          "fim": "presente",
+          "descricao": "Gestão de portfólio de marcas premium"
+        }
+      ],
+      "formacao": [
+        {
+          "curso": "MBA em Marketing",
+          "instituicao": "INSPER",
+          "ano": 2019
+        }
+      ],
+      "projetos": [],
+      "certificacoes": [],
+      "idiomas": [
+        { "idioma": "Português", "nivel": "Nativo" },
+        { "idioma": "Inglês", "nivel": "Fluente" }
+      ],
+      "interesses": ["Brand Strategy", "Consumer Psychology", "Market Trends"]
+    },
+    {
+      "id": 22,
+      "nome": "Tiago Costa",
+      "foto": "https://api.dicebear.com/7.x/avataaars/svg?seed=Tiago",
+      "cargo": "Software Engineer",
+      "resumo": "Engenheiro de software com expertise em sistemas distribuídos",
+      "localizacao": "Goiânia, GO",
+      "area": "Desenvolvimento",
+      "habilidadesTecnicas": [
+        "Golang",
+        "Rust",
+        "Distributed Systems",
+        "Protocol Buffers"
+      ],
+      "softSkills": [
+        "Análise de Sistemas",
+        "Atenção aos Detalhes",
+        "Criatividade"
+      ],
+      "experiencias": [
+        {
+          "empresa": "SysArch",
+          "cargo": "Senior Software Engineer",
+          "inicio": "2021-04",
+          "fim": "presente",
+          "descricao": "Desenvolvimento de sistemas de alta performance"
+        }
+      ],
+      "formacao": [
+        {
+          "curso": "Bacharelado em Computação",
+          "instituicao": "UFG",
+          "ano": 2016
+        }
+      ],
+      "projetos": [
+        {
+          "titulo": "High Performance System",
+          "link": "https://github.com/tiago/sys",
+          "descricao": "Sistema com latência sub-milissegundo"
+        }
+      ],
+      "certificacoes": [],
+      "idiomas": [
+        { "idioma": "Português", "nivel": "Nativo" },
+        { "idioma": "Inglês", "nivel": "Fluente" }
+      ],
+      "interesses": [
+        "Sistemas Distribuídos",
+        "Performance",
+        "Linguagens de Baixo Nível"
+      ]
+    },
+    {
+      "id": 23,
+      "nome": "Úrsula Ferreira",
+      "foto": "https://api.dicebear.com/7.x/avataaars/svg?seed=Ursula",
+      "cargo": "UX Researcher",
+      "resumo": "Pesquisadora de experiência de usuário e comportamento humano",
+      "localizacao": "Porto Alegre, RS",
+      "area": "Design",
+      "habilidadesTecnicas": [
+        "User Research",
+        "Usability Testing",
+        "Analytics",
+        "Figma"
+      ],
+      "softSkills": ["Empatia", "Análise de Dados", "Comunicação"],
+      "experiencias": [
+        {
+          "empresa": "ResearchHub",
+          "cargo": "Senior UX Researcher",
+          "inicio": "2020-06",
+          "fim": "presente",
+          "descricao": "Pesquisa de usuário para produtos digitais"
+        }
+      ],
+      "formacao": [
+        {
+          "curso": "Mestrado em Psicologia Cognitiva",
+          "instituicao": "UFRGS",
+          "ano": 2018
+        }
+      ],
+      "projetos": [],
+      "certificacoes": [],
+      "idiomas": [
+        { "idioma": "Português", "nivel": "Nativo" },
+        { "idioma": "Inglês", "nivel": "Fluente" }
+      ],
+      "interesses": [
+        "User Research",
+        "Comportamento do Usuário",
+        "Acessibilidade"
+      ]
+    },
+    {
+      "id": 24,
+      "nome": "Vinícius Santos",
+      "foto": "https://api.dicebear.com/7.x/avataaars/svg?seed=Vinicius",
+      "cargo": "Network Administrator",
+      "resumo": "Administrador de redes com expertise em infraestrutura",
+      "localizacao": "Campinas, SP",
+      "area": "Infraestrutura",
+      "habilidadesTecnicas": [
+        "Networking",
+        "Cisco",
+        "Network Security",
+        "DNS",
+        "VPN"
+      ],
+      "softSkills": [
+        "Atenção aos Detalhes",
+        "Resolução de Problemas",
+        "Documentação"
+      ],
+      "experiencias": [
+        {
+          "empresa": "NetCorp",
+          "cargo": "Senior Network Administrator",
+          "inicio": "2019-03",
+          "fim": "presente",
+          "descricao": "Gestão de infraestrutura de rede corporativa"
+        }
+      ],
+      "formacao": [
+        {
+          "curso": "Técnico em Redes",
+          "instituicao": "FATEC",
+          "ano": 2015
+        }
+      ],
+      "projetos": [],
+      "certificacoes": ["Cisco CCNA", "CompTIA Security+"],
+      "idiomas": [
+        { "idioma": "Português", "nivel": "Nativo" },
+        { "idioma": "Inglês", "nivel": "Intermediário" }
+      ],
+      "interesses": ["Segurança de Rede", "Cloud Networking", "Automação"]
+    },
+    {
+      "id": 25,
+      "nome": "Wanda Oliveira",
+      "foto": "https://api.dicebear.com/7.x/avataaars/svg?seed=Wanda",
+      "cargo": "Business Intelligence Analyst",
+      "resumo": "Analista de BI com expertise em data visualization",
+      "localizacao": "Manaus, AM",
+      "area": "Dados",
+      "habilidadesTecnicas": [
+        "Power BI",
+        "Tableau",
+        "SQL",
+        "Data Modeling",
+        "DAX"
+      ],
+      "softSkills": ["Análise Crítica", "Comunicação de Dados", "Criatividade"],
+      "experiencias": [
+        {
+          "empresa": "DataViz",
+          "cargo": "Senior BI Analyst",
+          "inicio": "2021-01",
+          "fim": "presente",
+          "descricao": "Desenvolvimento de dashboards analíticos"
+        }
+      ],
+      "formacao": [
+        {
+          "curso": "Especialização em Data Analytics",
+          "instituicao": "UFAM",
+          "ano": 2020
+        }
+      ],
+      "projetos": [
+        {
+          "titulo": "Executive Dashboard",
+          "link": "https://powerbi.example.com",
+          "descricao": "Dashboard executivo com KPIs"
+        }
+      ],
+      "certificacoes": ["Microsoft Power BI Data Analyst"],
+      "idiomas": [
+        { "idioma": "Português", "nivel": "Nativo" },
+        { "idioma": "Inglês", "nivel": "Avançado" }
+      ],
+      "interesses": [
+        "Data Visualization",
+        "Business Analytics",
+        "Data Storytelling"
+      ]
+    },
+    {
+      "id": 26,
+      "nome": "Xander Monteiro",
+      "foto": "https://api.dicebear.com/7.x/avataaars/svg?seed=Xander",
+      "cargo": "Cloud Architect",
+      "resumo": "Arquiteto de nuvem especializado em multi-cloud",
+      "localizacao": "Brasília, DF",
+      "area": "Infraestrutura",
+      "habilidadesTecnicas": [
+        "AWS",
+        "Azure",
+        "GCP",
+        "Terraform",
+        "CloudFormation"
+      ],
+      "softSkills": [
+        "Pensamento Estratégico",
+        "Resolução de Problemas",
+        "Comunicação"
+      ],
+      "experiencias": [
+        {
+          "empresa": "CloudFirst",
+          "cargo": "Senior Cloud Architect",
+          "inicio": "2020-05",
+          "fim": "presente",
+          "descricao": "Design de arquiteturas multi-cloud"
+        }
+      ],
+      "formacao": [
+        {
+          "curso": "MBA em Cloud Architecture",
+          "instituicao": "Linux Academy",
+          "ano": 2019
+        }
+      ],
+      "projetos": [],
+      "certificacoes": [
+        "AWS Solutions Architect Professional",
+        "Azure Solutions Architect",
+        "GCP Professional"
+      ],
+      "idiomas": [
+        { "idioma": "Português", "nivel": "Avançado" },
+        { "idioma": "Inglês", "nivel": "Fluente" }
+      ],
+      "interesses": ["Multi-Cloud", "Disaster Recovery", "Cost Optimization"]
+    },
+    {
+      "id": 27,
+      "nome": "Yasmin Torres",
+      "foto": "https://api.dicebear.com/7.x/avataaars/svg?seed=Yasmin",
+      "cargo": "Customer Success Manager",
+      "resumo": "Gerente de sucesso do cliente com foco em retenção",
+      "localizacao": "Fortaleza, CE",
+      "area": "Vendas",
+      "habilidadesTecnicas": [
+        "CRM",
+        "Customer Analytics",
+        "Sales Strategy",
+        "Negotiation"
+      ],
+      "softSkills": ["Empatia", "Comunicação", "Negociação"],
+      "experiencias": [
+        {
+          "empresa": "ClientSuccess",
+          "cargo": "Senior Customer Success Manager",
+          "inicio": "2021-02",
+          "fim": "presente",
+          "descricao": "Gestão de contas e retenção de clientes"
+        }
+      ],
+      "formacao": [
+        {
+          "curso": "Bacharelado em Administração",
+          "instituicao": "UFC",
+          "ano": 2017
+        }
+      ],
+      "projetos": [],
+      "certificacoes": ["Gainsight Certified Customer Success Manager"],
+      "idiomas": [
+        { "idioma": "Português", "nivel": "Nativo" },
+        { "idioma": "Inglês", "nivel": "Fluente" }
+      ],
+      "interesses": ["Customer Experience", "Retenção", "Account Management"]
+    },
+    {
+      "id": 28,
+      "nome": "Zoe Almeida",
+      "foto": "https://api.dicebear.com/7.x/avataaars/svg?seed=Zoe",
+      "cargo": "Compliance Officer",
+      "resumo": "Oficial de compliance com expertise em regulamentações",
+      "localizacao": "Curitiba, PR",
+      "area": "Compliance",
+      "habilidadesTecnicas": [
+        "Regulatory Compliance",
+        "Risk Assessment",
+        "Audit",
+        "Legal Documentation"
+      ],
+      "softSkills": ["Atenção aos Detalhes", "Análise Crítica", "Comunicação"],
+      "experiencias": [
+        {
+          "empresa": "ComplianceFirst",
+          "cargo": "Senior Compliance Officer",
+          "inicio": "2020-08",
+          "fim": "presente",
+          "descricao": "Gestão de conformidade regulatória"
+        }
+      ],
+      "formacao": [
+        {
+          "curso": "Mestrado em Direito Empresarial",
+          "instituicao": "UFPR",
+          "ano": 2019
+        }
+      ],
+      "projetos": [],
+      "certificacoes": ["Certified Compliance and Ethics Professional"],
+      "idiomas": [
+        { "idioma": "Português", "nivel": "Nativo" },
+        { "idioma": "Inglês", "nivel": "Avançado" }
+      ],
+      "interesses": [
+        "Compliance Regulatória",
+        "Privacidade de Dados",
+        "Auditoria"
+      ]
+    },
+    {
+      "id": 29,
+      "nome": "Alice Pinheiro",
+      "foto": "https://api.dicebear.com/7.x/avataaars/svg?seed=Alice",
+      "cargo": "Agile Coach",
+      "resumo": "Coach ágil especializado em transformação organizacional",
+      "localizacao": "São Paulo, SP",
+      "area": "Agile",
+      "habilidadesTecnicas": [
+        "Agile Coaching",
+        "Scrum",
+        "Kanban",
+        "Team Facilitation"
+      ],
+      "softSkills": ["Liderança", "Empatia", "Facilitação"],
+      "experiencias": [
+        {
+          "empresa": "AgileWorks",
+          "cargo": "Senior Agile Coach",
+          "inicio": "2020-01",
+          "fim": "presente",
+          "descricao": "Transformação ágil em empresas Fortune 500"
+        }
+      ],
+      "formacao": [
+        {
+          "curso": "Certificação em Agile Leadership",
+          "instituicao": "Scrum Alliance",
+          "ano": 2018
+        }
+      ],
+      "projetos": [],
+      "certificacoes": ["Certified Scrum Master", "Certified Scrum Trainer"],
+      "idiomas": [
+        { "idioma": "Português", "nivel": "Nativo" },
+        { "idioma": "Inglês", "nivel": "Fluente" }
+      ],
+      "interesses": [
+        "Agile Transformation",
+        "Organizational Change",
+        "Team Coaching"
+      ]
+    },
+    {
+      "id": 30,
+      "nome": "Bruno Ferreira",
+      "foto": "https://api.dicebear.com/7.x/avataaars/svg?seed=Bruno",
+      "cargo": "Technical Writer",
+      "resumo": "Escritor técnico com expertise em documentação de API",
+      "localizacao": "Rio de Janeiro, RJ",
+      "area": "Documentação",
+      "habilidadesTecnicas": [
+        "API Documentation",
+        "Technical Writing",
+        "Markdown",
+        "Swagger"
+      ],
+      "softSkills": ["Clareza", "Atenção aos Detalhes", "Criatividade"],
+      "experiencias": [
+        {
+          "empresa": "DocTech",
+          "cargo": "Senior Technical Writer",
+          "inicio": "2021-03",
+          "fim": "presente",
+          "descricao": "Documentação de APIs e SDKs"
+        }
+      ],
+      "formacao": [
+        {
+          "curso": "Bacharelado em Comunicação Social",
+          "instituicao": "UFRJ",
+          "ano": 2016
+        }
+      ],
+      "projetos": [
+        {
+          "titulo": "API Documentation",
+          "link": "https://docs.example.com",
+          "descricao": "Documentação completa de REST API"
+        }
+      ],
+      "certificacoes": [],
+      "idiomas": [
+        { "idioma": "Português", "nivel": "Nativo" },
+        { "idioma": "Inglês", "nivel": "Fluente" }
+      ],
+      "interesses": [
+        "Technical Documentation",
+        "Developer Experience",
+        "Clareza"
+      ]
+    },
+    {
+      "id": 31,
+      "nome": "Carolina Moreno",
+      "foto": "https://api.dicebear.com/7.x/avataaars/svg?seed=Carolina",
+      "cargo": "Graphic Designer",
+      "resumo": "Designer gráfico com expertise em branding e identidade visual",
+      "localizacao": "Minas Gerais, MG",
+      "area": "Design",
+      "habilidadesTecnicas": [
+        "Adobe Creative Suite",
+        "Figma",
+        "UI Design",
+        "Brand Identity"
+      ],
+      "softSkills": [
+        "Criatividade",
+        "Atenção aos Detalhes",
+        "Comunicação Visual"
+      ],
+      "experiencias": [
+        {
+          "empresa": "DesignHub",
+          "cargo": "Senior Graphic Designer",
+          "inicio": "2019-07",
+          "fim": "presente",
+          "descricao": "Design de identidade visual para marcas"
+        }
+      ],
+      "formacao": [
+        {
+          "curso": "Bacharelado em Design Gráfico",
+          "instituicao": "UFMG",
+          "ano": 2017
+        }
+      ],
+      "projetos": [
+        {
+          "titulo": "Brand Identity System",
+          "link": "https://behance.net/carolina",
+          "descricao": "Sistema de identidade visual completo"
+        }
+      ],
+      "certificacoes": [],
+      "idiomas": [
+        { "idioma": "Português", "nivel": "Nativo" },
+        { "idioma": "Inglês", "nivel": "Intermediário" }
+      ],
+      "interesses": ["Branding", "Design System", "Motion Design"]
+    },
+    {
+      "id": 32,
+      "nome": "Daniel Perez",
+      "foto": "https://api.dicebear.com/7.x/avataaars/svg?seed=Daniel",
+      "cargo": "Site Reliability Engineer",
+      "resumo": "SRE com expertise em monitoramento e observabilidade",
+      "localizacao": "São Paulo, SP",
+      "area": "Infraestrutura",
+      "habilidadesTecnicas": [
+        "Observability",
+        "Monitoring",
+        "Incident Response",
+        "Prometheus"
+      ],
+      "softSkills": [
+        "Atenção aos Detalhes",
+        "Resolução de Problemas",
+        "Comunicação"
+      ],
+      "experiencias": [
+        {
+          "empresa": "ReliableSystems",
+          "cargo": "Senior SRE",
+          "inicio": "2020-04",
+          "fim": "presente",
+          "descricao": "Garantia de confiabilidade de sistemas em escala"
+        }
+      ],
+      "formacao": [
+        {
+          "curso": "Mestrado em Engenharia de Sistemas",
+          "instituicao": "Politécnica/USP",
+          "ano": 2019
+        }
+      ],
+      "projetos": [],
+      "certificacoes": [],
+      "idiomas": [
+        { "idioma": "Português", "nivel": "Nativo" },
+        { "idioma": "Inglês", "nivel": "Fluente" }
+      ],
+      "interesses": [
+        "Observabilidade",
+        "Chaos Engineering",
+        "Incident Response"
+      ]
+    },
+    {
+      "id": 33,
+      "nome": "Elisa Goulart",
+      "foto": "https://api.dicebear.com/7.x/avataaars/svg?seed=Elisa",
+      "cargo": "Growth Hacker",
+      "resumo": "Growth hacker com foco em experimentação e dados",
+      "localizacao": "Santa Catarina, SC",
+      "area": "Crescimento",
+      "habilidadesTecnicas": [
+        "Analytics",
+        "A/B Testing",
+        "Growth Marketing",
+        "Data Analysis"
+      ],
+      "softSkills": ["Criatividade", "Análise de Dados", "Experimentação"],
+      "experiencias": [
+        {
+          "empresa": "GrowthLabs",
+          "cargo": "Senior Growth Hacker",
+          "inicio": "2021-06",
+          "fim": "presente",
+          "descricao": "Estratégias de crescimento para startups"
+        }
+      ],
+      "formacao": [
+        {
+          "curso": "Especialização em Growth Hacking",
+          "instituicao": "OnlineCourse",
+          "ano": 2020
+        }
+      ],
+      "projetos": [
+        {
+          "titulo": "Growth Experiment",
+          "link": "https://example.com",
+          "descricao": "Crescimento de 500% em conversões"
+        }
+      ],
+      "certificacoes": [],
+      "idiomas": [
+        { "idioma": "Português", "nivel": "Nativo" },
+        { "idioma": "Inglês", "nivel": "Avançado" }
+      ],
+      "interesses": ["Growth Marketing", "A/B Testing", "Experimentação"]
+    },
+    {
+      "id": 34,
+      "nome": "Fabricio Rocha",
+      "foto": "https://api.dicebear.com/7.x/avataaars/svg?seed=Fabricio",
+      "cargo": "Accessibility Specialist",
+      "resumo": "Especialista em acessibilidade e design inclusivo",
+      "localizacao": "Brasília, DF",
+      "area": "Design",
+      "habilidadesTecnicas": [
+        "WCAG",
+        "Accessibility Testing",
+        "ARIA",
+        "Assistive Technology"
+      ],
+      "softSkills": ["Empatia", "Atenção aos Detalhes", "Comunicação"],
+      "experiencias": [
+        {
+          "empresa": "AccessTech",
+          "cargo": "Senior Accessibility Specialist",
+          "inicio": "2020-09",
+          "fim": "presente",
+          "descricao": "Auditorias de acessibilidade para websites"
+        }
+      ],
+      "formacao": [
+        {
+          "curso": "Especialização em Design Acessível",
+          "instituicao": "W3C Training",
+          "ano": 2019
+        }
+      ],
+      "projetos": [],
+      "certificacoes": ["IAAP Certified Accessibility Auditor"],
+      "idiomas": [
+        { "idioma": "Português", "nivel": "Nativo" },
+        { "idioma": "Inglês", "nivel": "Fluente" }
+      ],
+      "interesses": ["Acessibilidade Web", "Design Inclusivo", "WCAG"]
+    },
+    {
+      "id": 35,
+      "nome": "Gabriela Santos",
+      "foto": "https://api.dicebear.com/7.x/avataaars/svg?seed=Gabriela",
+      "cargo": "E-Commerce Manager",
+      "resumo": "Gerente de e-commerce com expertise em vendas online",
+      "localizacao": "Pernambuco, PE",
+      "area": "E-Commerce",
+      "habilidadesTecnicas": [
+        "E-Commerce Platforms",
+        "Inventory Management",
+        "Order Management",
+        "Analytics"
+      ],
+      "softSkills": ["Gestão de Vendas", "Análise Estratégica", "Comunicação"],
+      "experiencias": [
+        {
+          "empresa": "OnlineStore",
+          "cargo": "Senior E-Commerce Manager",
+          "inicio": "2020-06",
+          "fim": "presente",
+          "descricao": "Gestão de vendas online de R$ 10M+ anuais"
+        }
+      ],
+      "formacao": [
+        {
+          "curso": "MBA em E-Commerce",
+          "instituicao": "FGV",
+          "ano": 2019
+        }
+      ],
+      "projetos": [],
+      "certificacoes": [],
+      "idiomas": [
+        { "idioma": "Português", "nivel": "Nativo" },
+        { "idioma": "Inglês", "nivel": "Avançado" }
+      ],
+      "interesses": ["E-Commerce Strategy", "Conversão", "Customer Retention"]
+    },
+    {
+      "id": 36,
+      "nome": "Henrique Dias",
+      "foto": "https://api.dicebear.com/7.x/avataaars/svg?seed=Henrique",
+      "cargo": "API Developer",
+      "resumo": "Desenvolvedor de APIs RESTful e GraphQL",
+      "localizacao": "Natal, RN",
+      "area": "Desenvolvimento",
+      "habilidadesTecnicas": [
+        "REST APIs",
+        "GraphQL",
+        "Node.js",
+        "Express",
+        "Microservices"
+      ],
+      "softSkills": ["Código Limpo", "Documentação", "Colaboração"],
+      "experiencias": [
+        {
+          "empresa": "APIFirst",
+          "cargo": "Senior API Developer",
+          "inicio": "2021-01",
+          "fim": "presente",
+          "descricao": "Desenvolvimento de APIs para múltiplos clientes"
+        }
+      ],
+      "formacao": [
+        {
+          "curso": "Bacharelado em Engenharia de Software",
+          "instituicao": "UFRN",
+          "ano": 2017
+        }
+      ],
+      "projetos": [
+        {
+          "titulo": "RESTful API",
+          "link": "https://github.com/henrique/api",
+          "descricao": "API com 50k requisições/dia"
+        }
+      ],
+      "certificacoes": [],
+      "idiomas": [
+        { "idioma": "Português", "nivel": "Nativo" },
+        { "idioma": "Inglês", "nivel": "Fluente" }
+      ],
+      "interesses": ["API Design", "GraphQL", "Microservices"]
+    },
+    {
+      "id": 37,
+      "nome": "Ingrid Martins",
+      "foto": "https://api.dicebear.com/7.x/avataaars/svg?seed=Ingrid",
+      "cargo": "Product Designer",
+      "resumo": "Designer de produto focado em design thinking",
+      "localizacao": "João Pessoa, PB",
+      "area": "Design",
+      "habilidadesTecnicas": [
+        "Product Design",
+        "Prototyping",
+        "Figma",
+        "User Testing"
+      ],
+      "softSkills": ["Empatia", "Criatividade", "Colaboração"],
+      "experiencias": [
+        {
+          "empresa": "ProductStudio",
+          "cargo": "Senior Product Designer",
+          "inicio": "2020-07",
+          "fim": "presente",
+          "descricao": "Design de produtos digitais inovadores"
+        }
+      ],
+      "formacao": [
+        {
+          "curso": "Bacharelado em Design",
+          "instituicao": "UFPB",
+          "ano": 2017
+        }
+      ],
+      "projetos": [
+        {
+          "titulo": "SaaS Product",
+          "link": "https://figma.com/ingrid",
+          "descricao": "Design system de 200+ componentes"
+        }
+      ],
+      "certificacoes": [],
+      "idiomas": [
+        { "idioma": "Português", "nivel": "Nativo" },
+        { "idioma": "Inglês", "nivel": "Fluente" }
+      ],
+      "interesses": [
+        "Design Thinking",
+        "Design Systems",
+        "User-Centered Design"
+      ]
+    },
+    {
+      "id": 38,
+      "nome": "Jefferson Silva",
+      "foto": "https://api.dicebear.com/7.x/avataaars/svg?seed=Jefferson",
+      "cargo": "Database Administrator",
+      "resumo": "Administrador de banco de dados com expertise em otimização",
+      "localizacao": "Londrina, PR",
+      "area": "Infraestrutura",
+      "habilidadesTecnicas": [
+        "PostgreSQL",
+        "MySQL",
+        "Database Optimization",
+        "Backup",
+        "Recovery"
+      ],
+      "softSkills": [
+        "Atenção aos Detalhes",
+        "Resolução de Problemas",
+        "Documentação"
+      ],
+      "experiencias": [
+        {
+          "empresa": "DataManage",
+          "cargo": "Senior DBA",
+          "inicio": "2019-05",
+          "fim": "presente",
+          "descricao": "Gestão de bancos de dados de alta disponibilidade"
+        }
+      ],
+      "formacao": [
+        {
+          "curso": "Técnico em Banco de Dados",
+          "instituicao": "FIAP",
+          "ano": 2015
+        }
+      ],
+      "projetos": [],
+      "certificacoes": [
+        "Oracle Database Administration",
+        "MySQL Database Administrator"
+      ],
+      "idiomas": [
+        { "idioma": "Português", "nivel": "Nativo" },
+        { "idioma": "Inglês", "nivel": "Intermediário" }
+      ],
+      "interesses": ["Database Performance", "Big Data", "Cloud Databases"]
+    },
+    {
+      "id": 39,
+      "nome": "Karen Rocha",
+      "foto": "https://api.dicebear.com/7.x/avataaars/svg?seed=Karen",
+      "cargo": "Video Producer",
+      "resumo": "Produtora de vídeo com expertise em conteúdo educacional",
+      "localizacao": "Rio Grande do Sul, RS",
+      "area": "Conteúdo",
+      "habilidadesTecnicas": [
+        "Video Editing",
+        "Adobe Premiere",
+        "Storyboarding",
+        "Motion Graphics"
+      ],
+      "softSkills": ["Criatividade", "Storytelling", "Atenção aos Detalhes"],
+      "experiencias": [
+        {
+          "empresa": "VideoStudio",
+          "cargo": "Senior Video Producer",
+          "inicio": "2021-02",
+          "fim": "presente",
+          "descricao": "Produção de conteúdo para educação online"
+        }
+      ],
+      "formacao": [
+        {
+          "curso": "Bacharelado em Audiovisual",
+          "instituicao": "UFRGS",
+          "ano": 2018
+        }
+      ],
+      "projetos": [
+        {
+          "titulo": "Educational Series",
+          "link": "https://youtube.com/karenvideo",
+          "descricao": "Série com 500k visualizações"
+        }
+      ],
+      "certificacoes": [],
+      "idiomas": [
+        { "idioma": "Português", "nivel": "Nativo" },
+        { "idioma": "Inglês", "nivel": "Intermediário" }
+      ],
+      "interesses": [
+        "Produção de Vídeo",
+        "Conteúdo Educacional",
+        "Motion Design"
+      ]
+    },
+    {
+      "id": 40,
+      "nome": "Lucas Martins",
+      "foto": "https://api.dicebear.com/7.x/avataaars/svg?seed=Lucas",
+      "cargo": "Blockchain Developer",
+      "resumo": "Desenvolvedor blockchain com expertise em smart contracts",
+      "localizacao": "Distrito Federal, DF",
+      "area": "Blockchain",
+      "habilidadesTecnicas": [
+        "Solidity",
+        "Web3.js",
+        "Ethereum",
+        "Smart Contracts",
+        "DeFi"
+      ],
+      "softSkills": ["Inovação", "Aprendizado Contínuo", "Colaboração"],
+      "experiencias": [
+        {
+          "empresa": "BlockTech",
+          "cargo": "Senior Blockchain Developer",
+          "inicio": "2021-08",
+          "fim": "presente",
+          "descricao": "Desenvolvimento de contratos inteligentes"
+        }
+      ],
+      "formacao": [
+        {
+          "curso": "Especialização em Blockchain",
+          "instituicao": "Coursera",
+          "ano": 2020
+        }
+      ],
+      "projetos": [
+        {
+          "titulo": "DeFi Protocol",
+          "link": "https://github.com/lucas/defi",
+          "descricao": "Protocolo de finanças descentralizadas"
+        }
+      ],
+      "certificacoes": ["Ethereum Developer Certified"],
+      "idiomas": [
+        { "idioma": "Português", "nivel": "Nativo" },
+        { "idioma": "Inglês", "nivel": "Fluente" }
+      ],
+      "interesses": ["Smart Contracts", "DeFi", "Web3"]
+    },
+    {
+      "id": 41,
+      "nome": "Monica Alves",
+      "foto": "https://api.dicebear.com/7.x/avataaars/svg?seed=Monica",
+      "cargo": "Instructional Designer",
+      "resumo": "Designer instrucional com expertise em learning experience",
+      "localizacao": "Bahia, BA",
+      "area": "Educação",
+      "habilidadesTecnicas": [
+        "Instructional Design",
+        "ADDIE Model",
+        "LMS",
+        "Articulate"
+      ],
+      "softSkills": ["Comunicação", "Organização", "Criatividade"],
+      "experiencias": [
+        {
+          "empresa": "EduTech",
+          "cargo": "Senior Instructional Designer",
+          "inicio": "2020-10",
+          "fim": "presente",
+          "descricao": "Design de cursos online para 50k+ alunos"
+        }
+      ],
+      "formacao": [
+        {
+          "curso": "Mestrado em Educação Digital",
+          "instituicao": "USP",
+          "ano": 2019
+        }
+      ],
+      "projetos": [],
+      "certificacoes": ["Instructional Design Professional"],
+      "idiomas": [
+        { "idioma": "Português", "nivel": "Nativo" },
+        { "idioma": "Inglês", "nivel": "Avançado" }
+      ],
+      "interesses": ["Learning Experience", "E-Learning", "Educação Digital"]
+    },
+    {
+      "id": 42,
+      "nome": "Nelson Perez",
+      "foto": "https://api.dicebear.com/7.x/avataaars/svg?seed=Nelson",
+      "cargo": "Systems Administrator",
+      "resumo": "Administrador de sistemas com expertise em Linux",
+      "localizacao": "Piauí, PI",
+      "area": "Infraestrutura",
+      "habilidadesTecnicas": [
+        "Linux",
+        "Windows Server",
+        "System Management",
+        "Bash"
+      ],
+      "softSkills": [
+        "Atenção aos Detalhes",
+        "Resolução de Problemas",
+        "Documentação"
+      ],
+      "experiencias": [
+        {
+          "empresa": "SysAdmin",
+          "cargo": "Senior Systems Administrator",
+          "inicio": "2019-03",
+          "fim": "presente",
+          "descricao": "Administração de servidores corporativos"
+        }
+      ],
+      "formacao": [
+        {
+          "curso": "Técnico em Informática",
+          "instituicao": "IFS",
+          "ano": 2014
+        }
+      ],
+      "projetos": [],
+      "certificacoes": ["Red Hat Certified System Administrator"],
+      "idiomas": [
+        { "idioma": "Português", "nivel": "Nativo" },
+        { "idioma": "Inglês", "nivel": "Intermediário" }
+      ],
+      "interesses": ["Linux Administration", "Automação", "Segurança"]
+    },
+    {
+      "id": 43,
+      "nome": "Olivia Santos",
+      "foto": "https://api.dicebear.com/7.x/avataaars/svg?seed=Olivia",
+      "cargo": "Supply Chain Manager",
+      "resumo": "Gerente de supply chain com expertise em logística",
+      "localizacao": "São Paulo, SP",
+      "area": "Operações",
+      "habilidadesTecnicas": [
+        "Supply Chain Planning",
+        "Logistics",
+        "Inventory Management"
+      ],
+      "softSkills": ["Organização", "Pensamento Estratégico", "Comunicação"],
+      "experiencias": [
+        {
+          "empresa": "LogisticsCorp",
+          "cargo": "Senior Supply Chain Manager",
+          "inicio": "2020-01",
+          "fim": "presente",
+          "descricao": "Gestão de cadeia de suprimentos global"
+        }
+      ],
+      "formacao": [
+        {
+          "curso": "MBA em Supply Chain",
+          "instituicao": "FGV",
+          "ano": 2019
+        }
+      ],
+      "projetos": [],
+      "certificacoes": ["APICS CSCP"],
+      "idiomas": [
+        { "idioma": "Português", "nivel": "Nativo" },
+        { "idioma": "Inglês", "nivel": "Fluente" }
+      ],
+      "interesses": [
+        "Supply Chain Optimization",
+        "Logística",
+        "Sustentabilidade"
+      ]
+    },
+    {
+      "id": 44,
+      "nome": "Paulo Gomes",
+      "foto": "https://api.dicebear.com/7.x/avataaars/svg?seed=Paulo",
+      "cargo": "IoT Engineer",
+      "resumo": "Engenheiro de IoT com expertise em sensores e conexão",
+      "localizacao": "Mato Grosso, MT",
+      "area": "IoT",
+      "habilidadesTecnicas": [
+        "IoT Platforms",
+        "Arduino",
+        "Embedded Systems",
+        "MQTT"
+      ],
+      "softSkills": ["Inovação", "Resolução de Problemas", "Experimentação"],
+      "experiencias": [
+        {
+          "empresa": "IoTInnovate",
+          "cargo": "Senior IoT Engineer",
+          "inicio": "2021-05",
+          "fim": "presente",
+          "descricao": "Desenvolvimento de soluções IoT"
+        }
+      ],
+      "formacao": [
+        {
+          "curso": "Bacharelado em Engenharia Eletrônica",
+          "instituicao": "UFMT",
+          "ano": 2016
+        }
+      ],
+      "projetos": [
+        {
+          "titulo": "Smart Home Solution",
+          "link": "https://github.com/paulo/iot",
+          "descricao": "Sistema de automação residencial"
+        }
+      ],
+      "certificacoes": [],
+      "idiomas": [
+        { "idioma": "Português", "nivel": "Nativo" },
+        { "idioma": "Inglês", "nivel": "Intermediário" }
+      ],
+      "interesses": ["IoT", "Embedded Systems", "Automação"]
+    },
+    {
+      "id": 45,
+      "nome": "Quiteria Soutinho",
+      "foto": "https://api.dicebear.com/7.x/avataaars/svg?seed=Quiteria",
+      "cargo": "Quantum Developer",
+      "resumo": "Desenvolvedor de computação quântica com foco em algoritmos",
+      "localizacao": "Tocantins, TO",
+      "area": "Quântica",
+      "habilidadesTecnicas": ["Qiskit", "Q#", "Quantum Algorithms", "Python"],
+      "softSkills": ["Pesquisa", "Inovação", "Análise"],
+      "experiencias": [
+        {
+          "empresa": "QuantumLab",
+          "cargo": "Quantum Developer",
+          "inicio": "2021-09",
+          "fim": "presente",
+          "descricao": "Desenvolvimento de algoritmos quânticos"
+        }
+      ],
+      "formacao": [
+        {
+          "curso": "Mestrado em Ciência da Computação",
+          "instituicao": "UFT",
+          "ano": 2020
+        }
+      ],
+      "projetos": [
+        {
+          "titulo": "Quantum Algorithm",
+          "link": "https://github.com/quiteria/quantum",
+          "descricao": "Algoritmo quântico otimizado"
+        }
+      ],
+      "certificacoes": ["IBM Quantum Developer"],
+      "idiomas": [
+        { "idioma": "Português", "nivel": "Nativo" },
+        { "idioma": "Inglês", "nivel": "Fluente" }
+      ],
+      "interesses": ["Computação Quântica", "Algoritmos", "Pesquisa"]
+    },
+    {
+      "id": 46,
+      "nome": "Rebecca Martins",
+      "foto": "https://api.dicebear.com/7.x/avataaars/svg?seed=Rebecca",
+      "cargo": "Community Manager",
+      "resumo": "Gerente de comunidade com expertise em engagement",
+      "localizacao": "Maranhão, MA",
+      "area": "Comunidade",
+      "habilidadesTecnicas": [
+        "Social Media",
+        "Community Engagement",
+        "Discourse",
+        "Analytics"
+      ],
+      "softSkills": ["Empatia", "Comunicação", "Criatividade"],
+      "experiencias": [
+        {
+          "empresa": "CommunityFirst",
+          "cargo": "Senior Community Manager",
+          "inicio": "2020-11",
+          "fim": "presente",
+          "descricao": "Gestão de comunidade de 100k+ membros"
+        }
+      ],
+      "formacao": [
+        {
+          "curso": "Bacharelado em Publicidade",
+          "instituicao": "UFMA",
+          "ano": 2017
+        }
+      ],
+      "projetos": [],
+      "certificacoes": [],
+      "idiomas": [
+        { "idioma": "Português", "nivel": "Nativo" },
+        { "idioma": "Inglês", "nivel": "Fluente" }
+      ],
+      "interesses": ["Community Building", "Engagement", "Social Media"]
+    },
+    {
+      "id": 47,
+      "nome": "Samuel Rocha",
+      "foto": "https://api.dicebear.com/7.x/avataaars/svg?seed=Samuel",
+      "cargo": "Research Scientist",
+      "resumo": "Cientista de pesquisa com foco em computação",
+      "localizacao": "Rondônia, RO",
+      "area": "Pesquisa",
+      "habilidadesTecnicas": [
+        "Research",
+        "Python",
+        "Statistical Analysis",
+        "Paper Writing"
+      ],
+      "softSkills": ["Análise Crítica", "Inovação", "Comunicação"],
+      "experiencias": [
+        {
+          "empresa": "ResearchHub",
+          "cargo": "Research Scientist",
+          "inicio": "2021-02",
+          "fim": "presente",
+          "descricao": "Pesquisa em algoritmos e otimização"
+        }
+      ],
+      "formacao": [
+        {
+          "curso": "Doutorado em Ciência da Computação",
+          "instituicao": "UFRO",
+          "ano": 2019
+        }
+      ],
+      "projetos": [
+        {
+          "titulo": "Research Paper",
+          "link": "https://arxiv.org/samuel",
+          "descricao": "Paper em conferência de tier-1"
+        }
+      ],
+      "certificacoes": [],
+      "idiomas": [
+        { "idioma": "Português", "nivel": "Nativo" },
+        { "idioma": "Inglês", "nivel": "Fluente" }
+      ],
+      "interesses": ["Pesquisa Científica", "Publicações", "Inovação"]
+    },
+    {
+      "id": 48,
+      "nome": "Tatiana Ferreira",
+      "foto": "https://api.dicebear.com/7.x/avataaars/svg?seed=Tatiana",
+      "cargo": "Legal Counsel",
+      "resumo": "Assessora jurídica especializada em direito digital",
+      "localizacao": "Acre, AC",
+      "area": "Legal",
+      "habilidadesTecnicas": [
+        "Legal Research",
+        "Contract Review",
+        "Compliance",
+        "Tech Law"
+      ],
+      "softSkills": ["Análise Crítica", "Comunicação", "Atenção aos Detalhes"],
+      "experiencias": [
+        {
+          "empresa": "LegalTech",
+          "cargo": "Senior Legal Counsel",
+          "inicio": "2020-08",
+          "fim": "presente",
+          "descricao": "Consultoria jurídica para empresas de tech"
+        }
+      ],
+      "formacao": [
+        {
+          "curso": "Mestrado em Direito Digital",
+          "instituicao": "USP",
+          "ano": 2018
+        }
+      ],
+      "projetos": [],
+      "certificacoes": ["Direito Digital Certificado"],
+      "idiomas": [
+        { "idioma": "Português", "nivel": "Nativo" },
+        { "idioma": "Inglês", "nivel": "Avançado" }
+      ],
+      "interesses": ["Direito Digital", "LGPD", "Contratos Digitais"]
+    },
+    {
+      "id": 49,
+      "nome": "Uiara Silva",
+      "foto": "https://api.dicebear.com/7.x/avataaars/svg?seed=Uiara",
+      "cargo": "Sustainability Manager",
+      "resumo": "Gerente de sustentabilidade com expertise em ESG",
+      "localizacao": "Amapá, AP",
+      "area": "Sustentabilidade",
+      "habilidadesTecnicas": [
+        "ESG Strategy",
+        "Carbon Accounting",
+        "Sustainability Reporting"
+      ],
+      "softSkills": ["Visão Estratégica", "Comunicação", "Liderança"],
+      "experiencias": [
+        {
+          "empresa": "SustainableFuture",
+          "cargo": "Senior Sustainability Manager",
+          "inicio": "2021-01",
+          "fim": "presente",
+          "descricao": "Implantação de programas ESG"
+        }
+      ],
+      "formacao": [
+        {
+          "curso": "MBA em Sustentabilidade",
+          "instituicao": "FGV",
+          "ano": 2019
+        }
+      ],
+      "projetos": [],
+      "certificacoes": ["B-Corp Certified"],
+      "idiomas": [
+        { "idioma": "Português", "nivel": "Nativo" },
+        { "idioma": "Inglês", "nivel": "Fluente" }
+      ],
+      "interesses": ["Sustentabilidade", "ESG", "Impacto Social"]
+    },
+    {
+      "id": 50,
+      "nome": "Vanessa Oliveira",
+      "foto": "https://api.dicebear.com/7.x/avataaars/svg?seed=Vanessa",
+      "cargo": "Data Engineer",
+      "resumo": "Engenheira de dados com expertise em pipelines de dados",
+      "localizacao": "São Paulo, SP",
+      "area": "Dados",
+      "habilidadesTecnicas": [
+        "Apache Spark",
+        "Airflow",
+        "BigQuery",
+        "Data Pipelines"
+      ],
+      "softSkills": ["Resolução de Problemas", "Automação", "Documentação"],
+      "experiencias": [
+        {
+          "empresa": "DataFlow",
+          "cargo": "Senior Data Engineer",
+          "inicio": "2020-03",
+          "fim": "presente",
+          "descricao": "Design de pipelines de dados em escala"
+        }
+      ],
+      "formacao": [
+        {
+          "curso": "Bacharelado em Engenharia de Computação",
+          "instituicao": "Politécnica/USP",
+          "ano": 2016
+        }
+      ],
+      "projetos": [
+        {
+          "titulo": "Data Pipeline",
+          "link": "https://github.com/vanessa/pipeline",
+          "descricao": "Pipeline processando 1TB/dia"
+        }
+      ],
+      "certificacoes": ["Google Cloud Professional Data Engineer"],
+      "idiomas": [
+        { "idioma": "Português", "nivel": "Nativo" },
+        { "idioma": "Inglês", "nivel": "Fluente" }
+      ],
+      "interesses": ["Data Engineering", "Big Data", "Data Architecture"]
+    },
+    {
+      "id": 51,
+      "nome": "Wagner Costa",
+      "foto": "https://api.dicebear.com/7.x/avataaars/svg?seed=Wagner",
+      "cargo": "Emerging Tech Strategist",
+      "resumo": "Estrategista de tecnologias emergentes",
+      "localizacao": "Rio de Janeiro, RJ",
+      "area": "Estratégia",
+      "habilidadesTecnicas": [
+        "Tech Strategy",
+        "Innovation",
+        "Trend Analysis",
+        "Market Research"
+      ],
+      "softSkills": ["Visão Estratégica", "Pensamento Crítico", "Comunicação"],
+      "experiencias": [
+        {
+          "empresa": "TechStrategy",
+          "cargo": "Senior Emerging Tech Strategist",
+          "inicio": "2021-04",
+          "fim": "presente",
+          "descricao": "Consultoria em tecnologias emergentes"
+        }
+      ],
+      "formacao": [
+        {
+          "curso": "MBA em Estratégia de Inovação",
+          "instituicao": "INSPER",
+          "ano": 2019
+        }
+      ],
+      "projetos": [],
+      "certificacoes": [],
+      "idiomas": [
+        { "idioma": "Português", "nivel": "Nativo" },
+        { "idioma": "Inglês", "nivel": "Fluente" }
+      ],
+      "interesses": [
+        "Tecnologias Emergentes",
+        "Inovação",
+        "Transformação Digital"
+      ]
+    },
+    {
+      "id": 52,
+      "nome": "Xavier Mendes",
+      "foto": "https://api.dicebear.com/7.x/avataaars/svg?seed=Xavier",
+      "cargo": "Speech Recognition Specialist",
+      "resumo": "Especialista em reconhecimento de fala e processamento de áudio",
+      "localizacao": "Paraná, PR",
+      "area": "IA/ML",
+      "habilidadesTecnicas": [
+        "Speech Recognition",
+        "Audio Processing",
+        "NLP",
+        "PyTorch"
+      ],
+      "softSkills": ["Pesquisa", "Inovação", "Colaboração"],
+      "experiencias": [
+        {
+          "empresa": "AudioAI",
+          "cargo": "Senior Speech Specialist",
+          "inicio": "2020-07",
+          "fim": "presente",
+          "descricao": "Desenvolvimento de sistemas de reconhecimento de fala"
+        }
+      ],
+      "formacao": [
+        {
+          "curso": "Mestrado em Processamento de Sinais",
+          "instituicao": "UFPR",
+          "ano": 2018
+        }
+      ],
+      "projetos": [
+        {
+          "titulo": "Speech Recognition System",
+          "link": "https://github.com/xavier/speech",
+          "descricao": "Sistema com 95% de acurácia"
+        }
+      ],
+      "certificacoes": [],
+      "idiomas": [
+        { "idioma": "Português", "nivel": "Nativo" },
+        { "idioma": "Inglês", "nivel": "Fluente" }
+      ],
+      "interesses": ["Reconhecimento de Fala", "NLP", "Audio AI"]
+    },
+    {
+      "id": 53,
+      "nome": "Yara Rocha",
+      "foto": "https://api.dicebear.com/7.x/avataaars/svg?seed=Yara",
+      "cargo": "Virtual Reality Developer",
+      "resumo": "Desenvolvedora de realidade virtual e experiências imersivas",
+      "localizacao": "Santa Catarina, SC",
+      "area": "VR/AR",
+      "habilidadesTecnicas": ["Unity", "Unreal Engine", "VR Development", "C#"],
+      "softSkills": ["Criatividade", "Inovação", "Atenção aos Detalhes"],
+      "experiencias": [
+        {
+          "empresa": "VRStudio",
+          "cargo": "Senior VR Developer",
+          "inicio": "2021-03",
+          "fim": "presente",
+          "descricao": "Desenvolvimento de experiências VR"
+        }
+      ],
+      "formacao": [
+        {
+          "curso": "Bacharelado em Jogos Digitais",
+          "instituicao": "UFSC",
+          "ano": 2017
+        }
+      ],
+      "projetos": [
+        {
+          "titulo": "VR Training Simulator",
+          "link": "https://github.com/yara/vr",
+          "descricao": "Simulador VR para treinamento corporativo"
+        }
+      ],
+      "certificacoes": [],
+      "idiomas": [
+        { "idioma": "Português", "nivel": "Nativo" },
+        { "idioma": "Inglês", "nivel": "Fluente" }
+      ],
+      "interesses": ["Realidade Virtual", "Experiências Imersivas", "Jogos"]
+    },
+    {
+      "id": 54,
+      "nome": "Zilda Pereira",
+      "foto": "https://api.dicebear.com/7.x/avataaars/svg?seed=Zilda",
+      "cargo": "Cybersecurity Analyst",
+      "resumo": "Analista de cibersegurança com foco em detecção de ameaças",
+      "localizacao": "Goiás, GO",
+      "area": "Segurança",
+      "habilidadesTecnicas": [
+        "Threat Detection",
+        "SIEM",
+        "Network Security",
+        "Incident Management"
+      ],
+      "softSkills": ["Atenção aos Detalhes", "Análise Crítica", "Comunicação"],
+      "experiencias": [
+        {
+          "empresa": "CyberDefense",
+          "cargo": "Senior Cybersecurity Analyst",
+          "inicio": "2020-09",
+          "fim": "presente",
+          "descricao": "Monitoramento de segurança em tempo real"
+        }
+      ],
+      "formacao": [
+        {
+          "curso": "Especialização em Cibersegurança",
+          "instituicao": "UFRJ",
+          "ano": 2019
+        }
+      ],
+      "projetos": [],
+      "certificacoes": ["CompTIA Security+", "Certified Ethical Hacker"],
+      "idiomas": [
+        { "idioma": "Português", "nivel": "Nativo" },
+        { "idioma": "Inglês", "nivel": "Avançado" }
+      ],
+      "interesses": ["Detecção de Ameaças", "SIEM", "Incident Response"]
+    },
+    {
+      "id": 55,
+      "nome": "Adriano Silva",
+      "foto": "https://api.dicebear.com/7.x/avataaars/svg?seed=Adriano",
+      "cargo": "Robotics Engineer",
+      "resumo": "Engenheiro de robótica com expertise em automação",
+      "localizacao": "Minas Gerais, MG",
+      "area": "Robótica",
+      "habilidadesTecnicas": ["ROS", "C++", "Kinematics", "Control Systems"],
+      "softSkills": ["Inovação", "Resolução de Problemas", "Experimentação"],
+      "experiencias": [
+        {
+          "empresa": "RoboTech",
+          "cargo": "Senior Robotics Engineer",
+          "inicio": "2020-05",
+          "fim": "presente",
+          "descricao": "Desenvolvimento de sistemas robóticos"
+        }
+      ],
+      "formacao": [
+        {
+          "curso": "Mestrado em Engenharia Mecatrônica",
+          "instituicao": "UFMG",
+          "ano": 2017
+        }
+      ],
+      "projetos": [
+        {
+          "titulo": "Autonomous Robot",
+          "link": "https://github.com/adriano/robot",
+          "descricao": "Robô autônomo para manufatura"
+        }
+      ],
+      "certificacoes": [],
+      "idiomas": [
+        { "idioma": "Português", "nivel": "Nativo" },
+        { "idioma": "Inglês", "nivel": "Fluente" }
+      ],
+      "interesses": ["Robótica", "Automação", "Engenharia de Controle"]
+    },
+    {
+      "id": 56,
+      "nome": "Beatrice Monteiro",
+      "foto": "https://api.dicebear.com/7.x/avataaars/svg?seed=Beatrice",
+      "cargo": "Climate Tech Developer",
+      "resumo": "Desenvolvedora de tecnologias de sustentabilidade climática",
+      "localizacao": "Espírito Santo, ES",
+      "area": "ClimaTech",
+      "habilidadesTecnicas": [
+        "Climate Data",
+        "Environmental Modeling",
+        "Python",
+        "GIS"
+      ],
+      "softSkills": ["Visão Ambiental", "Análise", "Colaboração"],
+      "experiencias": [
+        {
+          "empresa": "ClimateInnovate",
+          "cargo": "Senior Climate Tech Developer",
+          "inicio": "2021-06",
+          "fim": "presente",
+          "descricao": "Desenvolvimento de soluções para climate tech"
+        }
+      ],
+      "formacao": [
+        {
+          "curso": "Mestrado em Ciências Ambientais",
+          "instituicao": "UFES",
+          "ano": 2019
+        }
+      ],
+      "projetos": [],
+      "certificacoes": [],
+      "idiomas": [
+        { "idioma": "Português", "nivel": "Nativo" },
+        { "idioma": "Inglês", "nivel": "Fluente" }
+      ],
+      "interesses": ["Climate Tech", "Sustentabilidade", "Dados Ambientais"]
+    },
+    {
+      "id": 57,
+      "nome": "Clarissa Gomes",
+      "foto": "https://api.dicebear.com/7.x/avataaars/svg?seed=Clarissa",
+      "cargo": "GenAI Specialist",
+      "resumo": "Especialista em IA Generativa e modelos de linguagem",
+      "localizacao": "Distrito Federal, DF",
+      "area": "IA/ML",
+      "habilidadesTecnicas": [
+        "Large Language Models",
+        "Fine-tuning",
+        "Prompt Engineering",
+        "Transformers"
+      ],
+      "softSkills": ["Pesquisa", "Inovação", "Comunicação"],
+      "experiencias": [
+        {
+          "empresa": "GenAILabs",
+          "cargo": "Senior GenAI Specialist",
+          "inicio": "2023-01",
+          "fim": "presente",
+          "descricao": "Desenvolvimento e otimização de modelos LLM"
+        }
+      ],
+      "formacao": [
+        {
+          "curso": "Especialização em Deep Learning",
+          "instituicao": "Fast.ai",
+          "ano": 2022
+        }
+      ],
+      "projetos": [
+        {
+          "titulo": "Fine-tuned LLM",
+          "link": "https://github.com/clarissa/genai",
+          "descricao": "Modelo LLM otimizado para domínio específico"
+        }
+      ],
+      "certificacoes": [],
+      "idiomas": [
+        { "idioma": "Português", "nivel": "Nativo" },
+        { "idioma": "Inglês", "nivel": "Fluente" }
+      ],
+      "interesses": ["Modelos de Linguagem", "Prompt Engineering", "GenAI"]
+    },
+    {
+      "id": 58,
+      "nome": "Dimitri Oliveira",
+      "foto": "https://api.dicebear.com/7.x/avataaars/svg?seed=Dimitri",
+      "cargo": "Full Stack Architect",
+      "resumo": "Arquiteto full stack com 15 anos de experiência",
+      "localizacao": "Rio de Janeiro, RJ",
+      "area": "Arquitetura",
+      "habilidadesTecnicas": [
+        "System Architecture",
+        "Scalability",
+        "Performance Tuning",
+        "Cloud Native"
+      ],
+      "softSkills": ["Liderança", "Visão Estratégica", "Comunicação"],
+      "experiencias": [
+        {
+          "empresa": "ArchitectureLeading",
+          "cargo": "Chief Technology Architect",
+          "inicio": "2018-02",
+          "fim": "presente",
+          "descricao": "Arquitetura de sistemas para empresas Fortune 500"
+        }
+      ],
+      "formacao": [
+        {
+          "curso": "Mestrado em Engenharia de Software",
+          "instituicao": "COPPE/UFRJ",
+          "ano": 2015
+        }
+      ],
+      "projetos": [],
+      "certificacoes": ["TOGAF 9", "AWS Solutions Architect Professional"],
+      "idiomas": [
+        { "idioma": "Português", "nivel": "Nativo" },
+        { "idioma": "Inglês", "nivel": "Fluente" }
+      ],
+      "interesses": [
+        "Arquitetura de Sistemas",
+        "Escalabilidade",
+        "Inovação Tecnológica"
+      ]
+    },
+    {
+      "id": 59,
+      "nome": "Eloisa Martinez",
+      "foto": "https://api.dicebear.com/7.x/avataaars/svg?seed=Eloisa",
+      "cargo": "Augmented Reality Developer",
+      "resumo": "Desenvolvedora de realidade aumentada para aplicações comerciais",
+      "localizacao": "São Paulo, SP",
+      "area": "AR/VR",
+      "habilidadesTecnicas": [
+        "ARKit",
+        "ARCore",
+        "3D Modeling",
+        "Swift",
+        "Kotlin"
+      ],
+      "softSkills": ["Criatividade", "Atenção aos Detalhes", "Inovação"],
+      "experiencias": [
+        {
+          "empresa": "ARSolutions",
+          "cargo": "Senior AR Developer",
+          "inicio": "2021-08",
+          "fim": "presente",
+          "descricao": "Desenvolvimento de aplicações AR comerciais"
+        }
+      ],
+      "formacao": [
+        {
+          "curso": "Bacharelado em Engenharia de Computação",
+          "instituicao": "Politécnica/USP",
+          "ano": 2018
+        }
+      ],
+      "projetos": [
+        {
+          "titulo": "AR Shopping Experience",
+          "link": "https://github.com/eloisa/ar",
+          "descricao": "App AR de compras com 500k downloads"
+        }
+      ],
+      "certificacoes": [],
+      "idiomas": [
+        { "idioma": "Português", "nivel": "Nativo" },
+        { "idioma": "Inglês", "nivel": "Fluente" }
+      ],
+      "interesses": ["Realidade Aumentada", "3D", "Mobile AR"]
+    },
+    {
+      "id": 60,
+      "nome": "Fernando Ortiz",
+      "foto": "https://api.dicebear.com/7.x/avataaars/svg?seed=Fernando",
+      "cargo": "Hardware Engineer",
+      "resumo": "Engenheiro de hardware especializado em eletrônica embarcada",
+      "localizacao": "Paraíba, PB",
+      "area": "Hardware",
+      "habilidadesTecnicas": [
+        "Embedded Systems",
+        "PCB Design",
+        "Firmware",
+        "FPGA"
+      ],
+      "softSkills": ["Precisão", "Resolução de Problemas", "Experimentação"],
+      "experiencias": [
+        {
+          "empresa": "HardwareTech",
+          "cargo": "Senior Hardware Engineer",
+          "inicio": "2019-11",
+          "fim": "presente",
+          "descricao": "Design de soluções de hardware inovadoras"
+        }
+      ],
+      "formacao": [
+        {
+          "curso": "Bacharelado em Engenharia Eletrônica",
+          "instituicao": "UFPB",
+          "ano": 2015
+        }
+      ],
+      "projetos": [
+        {
+          "titulo": "IoT Hardware",
+          "link": "https://github.com/fernando/hardware",
+          "descricao": "Placa IoT com 50k unidades vendidas"
+        }
+      ],
+      "certificacoes": [],
+      "idiomas": [
+        { "idioma": "Português", "nivel": "Nativo" },
+        { "idioma": "Inglês", "nivel": "Intermediário" }
+      ],
+      "interesses": ["Eletrônica", "Embedded Systems", "Inovação de Hardware"]
+    }
+  ]
+}
