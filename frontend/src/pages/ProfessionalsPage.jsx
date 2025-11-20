@@ -1,6 +1,5 @@
 import { useEffect, useMemo, useState } from "react";
 import { Search } from "lucide-react";
-import Header from "../components/Header";
 import FilterBar from "../components/FilterBar";
 import ProfessionalCard from "../components/ProfessionalCard";
 import ProfessionalModal from "../components/ProfessionalModal";
@@ -27,6 +26,26 @@ const ProfessionalsPage = () => {
     }
 
     loadProfessionals();
+  }, []);
+
+  useEffect(() => {
+    async function loadUserRecommendations() {
+      try {
+        const token = localStorage.getItem("token"); // ou onde você salva seu JWT
+        if (!token) return;
+
+        const res = await fetch("http://localhost:3000/my-recommendations", {
+          headers: { Authorization: `Bearer ${token}` },
+        });
+
+        const data = await res.json();
+        setRecommendations(new Set(data.myRecommendations));
+      } catch (err) {
+        console.error("Erro ao buscar recomendações:", err);
+      }
+    }
+
+    loadUserRecommendations();
   }, []);
 
   const areas = useMemo(() => {
@@ -65,14 +84,30 @@ const ProfessionalsPage = () => {
     });
   }, [searchQuery, selectedArea, selectedCity, selectedSkill, professionals]);
 
-  const toggleRecommendation = (id) => {
-    const newRecs = new Set(recommendations);
-    if (newRecs.has(id)) {
-      newRecs.delete(id);
-    } else {
-      newRecs.add(id);
+  const toggleRecommendation = async (id) => {
+    const token = localStorage.getItem("token");
+
+    if (!token) {
+      alert("Por favor, faça login para recomendar profissionais.");
+      return;
     }
-    setRecommendations(newRecs);
+
+    const res = await fetch(`http://localhost:3000/recommend/${id}`, {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+        Authorization: `Bearer ${token}`,
+      },
+    });
+
+    const data = await res.json();
+
+    setRecommendations((prev) => {
+      const newSet = new Set(prev);
+      if (data.recommended) newSet.add(id);
+      else newSet.delete(id);
+      return newSet;
+    });
   };
 
   const toggleMessage = (id) => {

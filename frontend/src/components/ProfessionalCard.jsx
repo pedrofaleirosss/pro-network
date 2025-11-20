@@ -68,13 +68,13 @@ export default function ProfessionalCard({
                 e.stopPropagation();
                 onRecommend();
               }}
-              className={`flex-1 flex items-center justify-center gap-2 px-3 py-2 rounded-lg font-medium text-sm transition-all duration-300 ${
+              className={`flex-1 flex cursor-pointer items-center justify-center gap-2 px-3 py-2 rounded-lg font-medium text-sm transition-all duration-300 ${
                 isRecommended
                   ? "bg-blue-600 text-white shadow-lg shadow-blue-500/50"
                   : "bg-slate-100 dark:bg-slate-700 text-slate-700 dark:text-slate-300 hover:bg-blue-50 dark:hover:bg-blue-900/30"
               }`}
             >
-              👍 Recomendar
+              {isRecommended ? "✅ Recomendado" : "👍 Recomendar"}
             </button>
             <button
               onClick={(e) => {

@@ -16,6 +16,7 @@ app.use(express.json());
 const dataDir = path.join(__dirname, "data");
 const professionalsFile = path.join(dataDir, "professionals.json");
 const usersFile = path.join(dataDir, "users.json");
+const recommendationsFile = path.join(dataDir, "recommendations.json");
 
 // Funções utilitárias
 function ensureDataFiles() {
@@ -30,6 +31,12 @@ function ensureDataFiles() {
   }
   if (!fs.existsSync(usersFile)) {
     fs.writeFileSync(usersFile, JSON.stringify({ users: [] }, null, 2));
+  }
+  if (!fs.existsSync(recommendationsFile)) {
+    fs.writeFileSync(
+      recommendationsFile,
+      JSON.stringify({ recommendations: [] }, null, 2)
+    );
   }
 }
 
@@ -58,6 +65,7 @@ ensureDataFiles();
 let { professionals } = loadJSON(professionalsFile);
 let users = loadJSON(usersFile);
 let nextUserId = users.length > 0 ? Math.max(...users.map((u) => u.id)) + 1 : 1;
+let recommendations = loadJSON(recommendationsFile);
 
 // ---------- Helpers de validação ----------
 function validaEmailBasico(email) {
@@ -144,6 +152,58 @@ app.post("/login", async (req, res) => {
   }
   const token = gerarToken(user);
   res.json({ user: retornaSemSenha(user), token });
+});
+
+app.post("/recommend/:professionalId", autenticarToken, (req, res) => {
+  const professionalId = parseInt(req.params.professionalId);
+  const userId = req.user.id;
+
+  const professional = professionals.find((p) => p.id === professionalId);
+  if (!professional) {
+    return res.status(404).json({ error: "Profissional não encontrado." });
+  }
+
+  // procura recomendação existente
+  const existing = recommendations.find(
+    (r) => r.professionalId === professionalId && r.userId === userId
+  );
+
+  let recommended;
+
+  if (existing) {
+    // remover recomendação (toggle)
+    const index = recommendations.indexOf(existing);
+    recommendations.splice(index, 1);
+    recommended = false;
+  } else {
+    // adicionar recomendação
+    recommendations.push({ professionalId, userId });
+    recommended = true;
+  }
+
+  // salvar no arquivo JSON
+  saveJSON(recommendationsFile, recommendations);
+
+  // total de recomendações desse profissional
+  const total = recommendations.filter(
+    (r) => r.professionalId === professionalId
+  ).length;
+
+  return res.json({
+    professionalId,
+    recommended,
+    total,
+  });
+});
+
+app.get("/my-recommendations", autenticarToken, (req, res) => {
+  const userId = req.user.id;
+
+  const myRecs = recommendations
+    .filter((r) => r.userId === userId)
+    .map((r) => r.professionalId);
+
+  res.json({ myRecommendations: myRecs });
 });
 
 app.listen(PORT, () => {

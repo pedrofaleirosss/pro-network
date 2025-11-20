@@ -281,14 +281,13 @@ export default function ProfessionalModal({
         <div className="sticky bottom-0 bg-white dark:bg-slate-800 border-t border-slate-200 dark:border-slate-700 p-6 flex gap-3">
           <button
             onClick={onRecommend}
-            className={`flex-1 flex items-center justify-center gap-2 px-4 py-3 rounded-lg font-semibold transition-all duration-300 ${
+            className={`flex-1 cursor-pointer flex items-center justify-center gap-2 px-4 py-3 rounded-lg font-semibold transition-all duration-300 ${
               isRecommended
                 ? "bg-blue-600 text-white shadow-lg shadow-blue-500/50"
                 : "bg-blue-50 dark:bg-blue-900/30 text-blue-600 dark:text-blue-400 hover:bg-blue-100 dark:hover:bg-blue-900/50"
             }`}
           >
-            👍{" "}
-            {isRecommended ? "Recomendação enviada" : "Recomendar profissional"}
+            {isRecommended ? "✅ Recomendado" : "👍 Recomendar"}
           </button>
           <button
             onClick={onMessage}
