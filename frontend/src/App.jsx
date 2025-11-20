@@ -3,6 +3,7 @@ import Header from "./components/Header";
 import { useEffect, useState } from "react";
 import ProfessionalsPage from "./pages/ProfessionalsPage";
 import Footer from "./components/Footer";
+import NotFoundPage from "./pages/NotFoundPage";
 
 const defaultDark = localStorage.getItem("theme") === "dark";
 
@@ -34,6 +35,7 @@ function App() {
         <main>
           <Routes>
             <Route path="/" element={<ProfessionalsPage />} />
+            <Route path="*" element={<NotFoundPage />} />
           </Routes>
         </main>
         <Footer />
