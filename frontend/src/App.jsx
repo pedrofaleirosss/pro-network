@@ -2,6 +2,7 @@ import { Route, BrowserRouter as Router, Routes } from "react-router-dom";
 import Header from "./components/Header";
 import { useEffect, useState } from "react";
 import ProfessionalsPage from "./pages/ProfessionalsPage";
+import Footer from "./components/Footer";
 
 const defaultDark = localStorage.getItem("theme") === "dark";
 
@@ -35,6 +36,7 @@ function App() {
             <Route path="/" element={<ProfessionalsPage />} />
           </Routes>
         </main>
+        <Footer />
       </div>
     </Router>
   );
