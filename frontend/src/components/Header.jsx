@@ -1,6 +1,14 @@
 "use client";
 
 export default function Header({ darkMode, setDarkMode }) {
+  const token = localStorage.getItem("token");
+
+  const handleLogout = () => {
+    localStorage.removeItem("token");
+    localStorage.removeItem("user");
+    window.location.reload();
+  };
+
   return (
     <header className="sticky top-0 z-40 backdrop-blur-md bg-white/80 dark:bg-slate-900/80 border-b border-slate-200 dark:border-slate-700 transition-colors duration-300">
       <div className="container mx-auto px-4 py-4 flex items-center justify-between">
@@ -24,18 +32,29 @@ export default function Header({ darkMode, setDarkMode }) {
         </a>
 
         <nav className="flex items-center gap-4">
-          <a
-            href="/login"
-            className="px-4 py-2 text-sm font-medium text-slate-700 dark:text-slate-300 hover:text-blue-600 dark:hover:text-blue-400 transition-colors duration-300"
-          >
-            Login
-          </a>
-          <a
-            href="/signup"
-            className="px-4 py-2 text-sm font-medium bg-linear-to-r from-blue-600 to-purple-600 text-white rounded-lg hover:shadow-lg hover:shadow-blue-500/50 transition-all duration-300"
-          >
-            Cadastro
-          </a>
+          {token ? (
+            <button
+              onClick={handleLogout}
+              className="px-4 py-2 cursor-pointer text-sm font-medium text-slate-700 dark:text-slate-300 hover:text-blue-600 dark:hover:text-blue-400 transition-colors duration-300"
+            >
+              Sair
+            </button>
+          ) : (
+            <>
+              <a
+                href="/login"
+                className="px-4 py-2 text-sm font-medium text-slate-700 dark:text-slate-300 hover:text-blue-600 dark:hover:text-blue-400 transition-colors duration-300"
+              >
+                Login
+              </a>
+              <a
+                href="/signup"
+                className="px-4 py-2 text-sm font-medium bg-linear-to-r from-blue-600 to-purple-600 text-white rounded-lg hover:shadow-lg hover:shadow-blue-500/50 transition-all duration-300"
+              >
+                Cadastro
+              </a>
+            </>
+          )}
 
           <button
             onClick={() => setDarkMode(!darkMode)}

@@ -1,6 +1,8 @@
 "use client";
 
-import { useState } from "react";
+import { useEffect, useState } from "react";
+import { useNavigate } from "react-router-dom";
+import Swal from "sweetalert2";
 
 const LoginPage = () => {
   const [email, setEmail] = useState("");
@@ -8,7 +10,16 @@ const LoginPage = () => {
   const [rememberMe, setRememberMe] = useState(false);
   const [error, setError] = useState("");
 
-  const handleSubmit = (e) => {
+  const navigate = useNavigate();
+
+  useEffect(() => {
+    const token = localStorage.getItem("token");
+    if (token) {
+      navigate("/");
+    }
+  }, [navigate]);
+
+  const handleSubmit = async (e) => {
     e.preventDefault();
     setError("");
 
@@ -22,8 +33,43 @@ const LoginPage = () => {
       return;
     }
 
-    // Success feedback
-    alert("Login realizado com sucesso!");
+    try {
+      const response = await fetch("http://localhost:3000/login", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({ email, senha: password }),
+      });
+
+      const data = await response.json();
+
+      if (response.ok && data.token) {
+        localStorage.setItem("token", data.token);
+        localStorage.setItem("user", JSON.stringify(data.user));
+
+        await Swal.fire({
+          title: `Bem-vindo, ${data.user.nome}!`,
+          text: "Login realizado com sucesso!",
+          icon: "success",
+        });
+
+        navigate("/");
+        window.location.reload();
+      } else {
+        Swal.fire({
+          icon: "error",
+          title: "Oops...",
+          text: `Erro ao realizar login: ${
+            data.error || JSON.stringify(data.errors)
+          }`,
+        });
+      }
+    } catch (error) {
+      setError(error.message);
+      return;
+    }
+
     setEmail("");
     setPassword("");
   };

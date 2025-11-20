@@ -1,6 +1,8 @@
 "use client";
 
-import { useState } from "react";
+import { useEffect, useState } from "react";
+import { useNavigate } from "react-router-dom";
+import Swal from "sweetalert2";
 
 const SignUpPage = () => {
   const [formData, setFormData] = useState({
@@ -12,6 +14,15 @@ const SignUpPage = () => {
   });
 
   const [errors, setErrors] = useState({});
+
+  const navigate = useNavigate();
+
+  useEffect(() => {
+    const token = localStorage.getItem("token");
+    if (token) {
+      navigate("/");
+    }
+  }, [navigate]);
 
   const handleChange = (e) => {
     const { name, value, checked, type } = e.target;
@@ -28,7 +39,7 @@ const SignUpPage = () => {
     }
   };
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
     const newErrors = {};
 
@@ -48,14 +59,48 @@ const SignUpPage = () => {
       return;
     }
 
-    alert("Cadastro realizado com sucesso! Bem-vindo ao ProNetwork!");
-    setFormData({
-      name: "",
-      email: "",
-      password: "",
-      confirmPassword: "",
-      acceptTerms: false,
-    });
+    try {
+      const response = await fetch("http://localhost:3000/signup", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({
+          nome: formData.name,
+          email: formData.email,
+          senha: formData.password,
+        }),
+      });
+
+      const data = await response.json();
+
+      if (response.ok) {
+        Swal.fire({
+          title: "Sucesso!",
+          text: "Cadastro realizado com sucesso! Você já pode fazer login.",
+          icon: "success",
+        });
+
+        setFormData({
+          name: "",
+          email: "",
+          password: "",
+          confirmPassword: "",
+          acceptTerms: false,
+        });
+      } else {
+        Swal.fire({
+          icon: "error",
+          title: "Oops...",
+          text: `Erro ao realizar cadastro: ${
+            data.error || JSON.stringify(data.errors)
+          }`,
+        });
+      }
+    } catch (error) {
+      alert(error.message);
+      return;
+    }
   };
 
   return (
