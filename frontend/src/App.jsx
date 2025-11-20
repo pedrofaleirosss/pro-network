@@ -4,6 +4,8 @@ import { useEffect, useState } from "react";
 import ProfessionalsPage from "./pages/ProfessionalsPage";
 import Footer from "./components/Footer";
 import NotFoundPage from "./pages/NotFoundPage";
+import SignUpPage from "./pages/SignUpPage";
+import LoginPage from "./pages/LoginPage";
 
 const defaultDark = localStorage.getItem("theme") === "dark";
 
@@ -36,6 +38,8 @@ function App() {
           <Routes>
             <Route path="/" element={<ProfessionalsPage />} />
             <Route path="*" element={<NotFoundPage />} />
+            <Route path="/login" element={<LoginPage />} />
+            <Route path="/signup" element={<SignUpPage />} />
           </Routes>
         </main>
         <Footer />
