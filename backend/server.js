@@ -256,6 +256,7 @@ app.get("/messages/:userId", (req, res) => {
         ...msg,
         professionalName: prof?.nome || "Profissional desconhecido",
         professionalArea: prof?.area || "Área não informada",
+        professionalPhoto: prof?.foto || null,
       };
     });
 

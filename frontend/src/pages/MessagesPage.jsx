@@ -57,13 +57,22 @@ export default function MessagesPage() {
             >
               {/* Cabeçalho */}
               <div className="flex items-center justify-between mb-4">
-                <div>
-                  <h3 className="text-lg font-semibold text-slate-900 dark:text-white">
-                    {msg.professionalName}
-                  </h3>
-                  <p className="text-sm text-slate-500 dark:text-slate-400">
-                    {msg.professionalArea}
-                  </p>
+                {/* Foto + Nome */}
+                <div className="flex items-center gap-4">
+                  <img
+                    src={msg.professionalPhoto || "/default-avatar.png"}
+                    alt={msg.professionalName}
+                    className="w-14 h-14 rounded-full object-cover border border-slate-300 dark:border-slate-600 shadow-sm"
+                  />
+
+                  <div>
+                    <h3 className="text-lg font-semibold text-slate-900 dark:text-white">
+                      {msg.professionalName}
+                    </h3>
+                    <p className="text-sm text-slate-500 dark:text-slate-400">
+                      {msg.professionalArea}
+                    </p>
+                  </div>
                 </div>
 
                 <span className="text-xs text-slate-500 dark:text-slate-400">
@@ -71,7 +80,7 @@ export default function MessagesPage() {
                 </span>
               </div>
 
-              {/* Conteúdo da mensagem */}
+              {/* Conteúdo */}
               <p className="text-slate-800 dark:text-slate-200">
                 {msg.content}
               </p>
