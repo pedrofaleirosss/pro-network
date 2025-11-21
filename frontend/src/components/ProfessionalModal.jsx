@@ -1,16 +1,78 @@
 "use client";
 
 import { useState } from "react";
+import Swal from "sweetalert2";
 
 export default function ProfessionalModal({
   professional,
   isRecommended,
-  isMessaged,
   onClose,
   onRecommend,
-  onMessage,
 }) {
   const [activeTab, setActiveTab] = useState("about");
+  const [isWritingMessage, setIsWritingMessage] = useState(false);
+  const [messageText, setMessageText] = useState("");
+
+  const openMessageBox = () => {
+    const userId = JSON.parse(localStorage.getItem("user"))?.id || null;
+
+    if (!userId) {
+      return Swal.fire({
+        title: "Você precisa estar logado para enviar mensagens.",
+        icon: "warning",
+        showCancelButton: true,
+        confirmButtonText: "Login",
+        cancelButtonText: "Cancelar",
+      }).then((result) => {
+        if (result.isConfirmed) {
+          window.location.href = "/login";
+        }
+      });
+    }
+
+    setIsWritingMessage(true);
+  };
+  const closeMessageBox = () => {
+    setMessageText("");
+    setIsWritingMessage(false);
+  };
+
+  const sendMessage = async (professionalId) => {
+    if (!messageText.trim()) return alert("Digite uma mensagem!");
+
+    const userId = JSON.parse(localStorage.getItem("user"))?.id || null;
+
+    if (!userId) {
+      return Swal.fire({
+        title: "Você precisa estar logado para enviar mensagens.",
+        icon: "warning",
+        showCancelButton: true,
+        confirmButtonText: "Login",
+        cancelButtonText: "Cancelar",
+      }).then((result) => {
+        if (result.isConfirmed) {
+          window.location.href = "/login";
+        }
+      });
+    }
+
+    const response = await fetch("http://localhost:3000/send-message", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({
+        professionalId,
+        userId,
+        content: messageText,
+      }),
+    });
+
+    if (response.ok) {
+      Swal.fire("Sucesso", "Mensagem enviada!", "success");
+      closeMessageBox();
+    } else {
+      Swal.fire("Erro", "Falha ao enviar mensagem.", "error");
+    }
+  };
 
   return (
     <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/50 backdrop-blur-sm p-4 animate-in fade-in duration-300">
@@ -277,6 +339,34 @@ export default function ProfessionalModal({
           )}
         </div>
 
+        {isWritingMessage && (
+          <div className="mt-4 flex flex-col gap-2 py-6 px-6 bg-slate-50 dark:bg-slate-700/50 border-t border-slate-200 dark:border-slate-700">
+            <textarea
+              className="w-full p-3 border rounded-lg dark:bg-gray-800 dark:text-white"
+              rows={3}
+              placeholder="Digite sua mensagem..."
+              value={messageText}
+              onChange={(e) => setMessageText(e.target.value)}
+            />
+
+            <div className="flex gap-2">
+              <button
+                onClick={() => sendMessage(professional.id)}
+                className="px-4 py-2 bg-green-600 text-white rounded-lg cursor-pointer"
+              >
+                Enviar
+              </button>
+
+              <button
+                onClick={closeMessageBox}
+                className="px-4 py-2 bg-gray-300 dark:bg-gray-600 rounded-lg cursor-pointer"
+              >
+                Cancelar
+              </button>
+            </div>
+          </div>
+        )}
+
         {/* Action Buttons */}
         <div className="sticky bottom-0 bg-white dark:bg-slate-800 border-t border-slate-200 dark:border-slate-700 p-6 flex gap-3">
           <button
@@ -290,14 +380,10 @@ export default function ProfessionalModal({
             {isRecommended ? "✅ Recomendado" : "👍 Recomendar"}
           </button>
           <button
-            onClick={onMessage}
-            className={`flex-1 flex items-center justify-center gap-2 px-4 py-3 rounded-lg font-semibold transition-all duration-300 ${
-              isMessaged
-                ? "bg-purple-600 text-white shadow-lg shadow-purple-500/50"
-                : "bg-purple-50 dark:bg-purple-900/30 text-purple-600 dark:text-purple-400 hover:bg-purple-100 dark:hover:bg-purple-900/50"
-            }`}
+            onClick={openMessageBox}
+            className={`flex-1 flex items-center cursor-pointer justify-center gap-2 px-4 py-3 rounded-lg font-semibold transition-all duration-300 ${"bg-purple-50 dark:bg-purple-900/30 text-purple-600 dark:text-purple-400 hover:bg-purple-100 dark:hover:bg-purple-900/50"}`}
           >
-            💬 {isMessaged ? "Mensagem enviada" : "Enviar mensagem"}
+            💬 Mensagem
           </button>
         </div>
       </div>

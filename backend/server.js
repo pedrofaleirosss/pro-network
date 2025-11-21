@@ -17,6 +17,7 @@ const dataDir = path.join(__dirname, "data");
 const professionalsFile = path.join(dataDir, "professionals.json");
 const usersFile = path.join(dataDir, "users.json");
 const recommendationsFile = path.join(dataDir, "recommendations.json");
+const messagesFile = path.join(dataDir, "messages.json");
 
 // Funções utilitárias
 function ensureDataFiles() {
@@ -37,6 +38,9 @@ function ensureDataFiles() {
       recommendationsFile,
       JSON.stringify({ recommendations: [] }, null, 2)
     );
+  }
+  if (!fs.existsSync(messagesFile)) {
+    fs.writeFileSync(messagesFile, JSON.stringify({ messages: [] }, null, 2));
   }
 }
 
@@ -66,6 +70,7 @@ let { professionals } = loadJSON(professionalsFile);
 let users = loadJSON(usersFile);
 let nextUserId = users.length > 0 ? Math.max(...users.map((u) => u.id)) + 1 : 1;
 let recommendations = loadJSON(recommendationsFile);
+let messages = loadJSON(messagesFile);
 
 // ---------- Helpers de validação ----------
 function validaEmailBasico(email) {
@@ -204,6 +209,34 @@ app.get("/my-recommendations", autenticarToken, (req, res) => {
     .map((r) => r.professionalId);
 
   res.json({ myRecommendations: myRecs });
+});
+
+app.post("/send-message", (req, res) => {
+  const { professionalId, userId, content } = req.body;
+
+  if (!professionalId || !userId || !content) {
+    return res.status(400).json({ error: "Dados incompletos" });
+  }
+
+  let messages = [];
+
+  if (fs.existsSync(messagesFile)) {
+    messages = JSON.parse(fs.readFileSync(messagesFile));
+  }
+
+  const newMessage = {
+    id: Date.now(),
+    professionalId,
+    userId,
+    content,
+    date: new Date().toISOString(),
+  };
+
+  messages.push(newMessage);
+
+  fs.writeFileSync(messagesFile, JSON.stringify(messages, null, 2));
+
+  res.json({ success: true, message: "Mensagem salva!" });
 });
 
 app.listen(PORT, () => {

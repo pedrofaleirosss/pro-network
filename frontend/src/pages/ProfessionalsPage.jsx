@@ -3,6 +3,7 @@ import { Search } from "lucide-react";
 import FilterBar from "../components/FilterBar";
 import ProfessionalCard from "../components/ProfessionalCard";
 import ProfessionalModal from "../components/ProfessionalModal";
+import Swal from "sweetalert2";
 
 const ProfessionalsPage = () => {
   const [searchQuery, setSearchQuery] = useState("");
@@ -11,7 +12,6 @@ const ProfessionalsPage = () => {
   const [selectedSkill, setSelectedSkill] = useState("");
   const [selectedProfessional, setSelectedProfessional] = useState(null);
   const [recommendations, setRecommendations] = useState(new Set());
-  const [messages, setMessages] = useState(new Set());
   const [professionals, setProfessionals] = useState([]);
 
   useEffect(() => {
@@ -88,8 +88,17 @@ const ProfessionalsPage = () => {
     const token = localStorage.getItem("token");
 
     if (!token) {
-      alert("Por favor, faça login para recomendar profissionais.");
-      return;
+      return Swal.fire({
+        title: "Você precisa estar logado para recomendar um profissional.",
+        icon: "warning",
+        showCancelButton: true,
+        confirmButtonText: "Login",
+        cancelButtonText: "Cancelar",
+      }).then((result) => {
+        if (result.isConfirmed) {
+          window.location.href = "/login";
+        }
+      });
     }
 
     const res = await fetch(`http://localhost:3000/recommend/${id}`, {
@@ -108,16 +117,6 @@ const ProfessionalsPage = () => {
       else newSet.delete(id);
       return newSet;
     });
-  };
-
-  const toggleMessage = (id) => {
-    const newMessages = new Set(messages);
-    if (newMessages.has(id)) {
-      newMessages.delete(id);
-    } else {
-      newMessages.add(id);
-    }
-    setMessages(newMessages);
   };
 
   return (
@@ -177,7 +176,6 @@ const ProfessionalsPage = () => {
               isRecommended={recommendations.has(professional.id)}
               onCardClick={() => setSelectedProfessional(professional)}
               onRecommend={() => toggleRecommendation(professional.id)}
-              onMessage={() => toggleMessage(professional.id)}
             />
           ))}
         </div>
@@ -201,10 +199,8 @@ const ProfessionalsPage = () => {
         <ProfessionalModal
           professional={selectedProfessional}
           isRecommended={recommendations.has(selectedProfessional.id)}
-          isMessaged={messages.has(selectedProfessional.id)}
           onClose={() => setSelectedProfessional(null)}
           onRecommend={() => toggleRecommendation(selectedProfessional.id)}
-          onMessage={() => toggleMessage(selectedProfessional.id)}
         />
       )}
     </div>

@@ -5,7 +5,6 @@ export default function ProfessionalCard({
   isRecommended,
   onCardClick,
   onRecommend,
-  onMessage,
 }) {
   return (
     <div onClick={onCardClick} className="group cursor-pointer h-full">
@@ -77,13 +76,10 @@ export default function ProfessionalCard({
               {isRecommended ? "✅ Recomendado" : "👍 Recomendar"}
             </button>
             <button
-              onClick={(e) => {
-                e.stopPropagation();
-                onMessage();
-              }}
-              className="flex-1 flex items-center justify-center gap-2 px-3 py-2 rounded-lg font-medium text-sm bg-slate-100 dark:bg-slate-700 text-slate-700 dark:text-slate-300 hover:bg-purple-50 dark:hover:bg-purple-900/30 transition-all duration-300"
+              onClick={onCardClick}
+              className="flex-1 flex cursor-pointer items-center justify-center gap-2 px-3 py-2 rounded-lg font-medium text-sm bg-slate-100 dark:bg-slate-700 text-slate-700 dark:text-slate-300 hover:bg-purple-50 dark:hover:bg-purple-900/30 transition-all duration-300"
             >
-              💬 Mensagem
+              🔍 Ver Perfil
             </button>
           </div>
         </div>
