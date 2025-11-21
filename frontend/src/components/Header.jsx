@@ -33,12 +33,21 @@ export default function Header({ darkMode, setDarkMode }) {
 
         <nav className="flex items-center gap-4">
           {token ? (
-            <button
-              onClick={handleLogout}
-              className="px-4 py-2 cursor-pointer text-sm font-medium text-slate-700 dark:text-slate-300 hover:text-blue-600 dark:hover:text-blue-400 transition-colors duration-300"
-            >
-              Sair
-            </button>
+            <>
+              <a
+                href="/my-messages"
+                className="px-4 py-2 text-sm font-medium text-slate-700 dark:text-slate-300 hover:text-blue-600 dark:hover:text-blue-400 transition-colors duration-300"
+              >
+                Minhas Mensagens
+              </a>
+
+              <button
+                onClick={handleLogout}
+                className="px-4 py-2 cursor-pointer text-sm font-medium text-slate-700 dark:text-slate-300 hover:text-blue-600 dark:hover:text-blue-400 transition-colors duration-300"
+              >
+                Sair
+              </button>
+            </>
           ) : (
             <>
               <a

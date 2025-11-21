@@ -239,6 +239,29 @@ app.post("/send-message", (req, res) => {
   res.json({ success: true, message: "Mensagem salva!" });
 });
 
+app.get("/messages/:userId", (req, res) => {
+  const userId = parseInt(req.params.userId);
+
+  if (!fs.existsSync(messagesFile)) {
+    return res.json([]);
+  }
+
+  const messages = JSON.parse(fs.readFileSync(messagesFile));
+
+  const userMessages = messages
+    .filter((msg) => msg.userId === userId)
+    .map((msg) => {
+      const prof = professionals.find((p) => p.id === msg.professionalId);
+      return {
+        ...msg,
+        professionalName: prof?.nome || "Profissional desconhecido",
+        professionalArea: prof?.area || "Área não informada",
+      };
+    });
+
+  res.json(userMessages);
+});
+
 app.listen(PORT, () => {
   console.log(`Server is running on http://localhost:${PORT}`);
 });
